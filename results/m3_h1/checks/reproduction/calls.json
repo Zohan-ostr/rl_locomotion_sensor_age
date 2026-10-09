@@ -1,0 +1,77 @@
+[
+  {
+    "function": "run_sensor_episode.run_episode",
+    "output": "results/m3_h1/checks/reproduction/B1",
+    "schedule": "results/m2_validation_h1/inputs/seed_10/J40.json",
+    "initial": "results/m2_validation_h1/inputs/seed_10/initial.json",
+    "method": "B1",
+    "horizons_ms": [
+      20,
+      20
+    ],
+    "adapter_config": null
+  },
+  {
+    "function": "run_sensor_episode.run_episode",
+    "output": "results/m3_h1/checks/reproduction/M",
+    "schedule": "results/m2_validation_h1/inputs/seed_10/J40.json",
+    "initial": "results/m2_validation_h1/inputs/seed_10/initial.json",
+    "method": "M",
+    "horizons_ms": [
+      20,
+      20
+    ],
+    "adapter_config": null
+  },
+  {
+    "function": "run_sensor_episode.run_episode",
+    "output": "results/m3_h1/checks/reproduction/M2",
+    "schedule": "results/m2_validation_h1/inputs/seed_10/J40.json",
+    "initial": "results/m2_validation_h1/inputs/seed_10/initial.json",
+    "method": "M2",
+    "horizons_ms": [
+      120,
+      20
+    ],
+    "adapter_config": {
+      "family": "hybrid",
+      "joints": {
+        "family": "periodic",
+        "config": {
+          "period": 0.8,
+          "history": 60,
+          "harmonics": 3,
+          "ridge": 0.001,
+          "gain": 0.5,
+          "joint_correction_limit": 0.35,
+          "velocity_correction_limit": 6.0,
+          "omega_correction_limit": 2.0
+        }
+      },
+      "imu": {
+        "family": "legacy",
+        "config": {}
+      }
+    }
+  },
+  {
+    "argv": [
+      "/home/zohan/projects/rl_locomotion_sensor_age/.venv/bin/python",
+      "-I",
+      "scripts/run_sensor_episode.py",
+      "--initial",
+      "results/m3_h1/inputs/seed_100/initial.json",
+      "--schedule",
+      "results/m3_h1/inputs/seed_100/I80.json",
+      "--method",
+      "M3",
+      "--output",
+      "results/m3_h1/checks/reproduction/M3_CLI"
+    ],
+    "environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  }
+]

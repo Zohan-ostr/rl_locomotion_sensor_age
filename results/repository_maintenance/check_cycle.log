@@ -1,0 +1,7 @@
+test_identity_cap_and_only_delivered_history (__main__.CycleTests) ... ok
+test_periodic_replay_and_gravity_direction (__main__.CycleTests) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.016s
+
+OK

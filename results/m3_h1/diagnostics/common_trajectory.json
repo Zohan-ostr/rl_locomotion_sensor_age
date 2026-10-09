@@ -1,0 +1,198 @@
+[
+  {
+    "seed": 20,
+    "condition": "J80",
+    "variant": "B1",
+    "action_rmse": 0.6354278922080994,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "J80",
+    "variant": "M",
+    "action_rmse": 0.6019746661186218,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "J80",
+    "variant": "M2",
+    "action_rmse": 0.5825259685516357,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "J80",
+    "variant": "oracle_q",
+    "action_rmse": 0.29470542073249817,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "J80",
+    "variant": "oracle_dq",
+    "action_rmse": 0.5608742237091064,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "J80",
+    "variant": "oracle_omega",
+    "action_rmse": 0.6354278922080994,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "J80",
+    "variant": "oracle_g",
+    "action_rmse": 0.6354278922080994,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "variant": "B1",
+    "action_rmse": 0.3940819799900055,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "variant": "M",
+    "action_rmse": 0.39694729447364807,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "variant": "M2",
+    "action_rmse": 0.39694729447364807,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "variant": "oracle_q",
+    "action_rmse": 0.3940819799900055,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "variant": "oracle_dq",
+    "action_rmse": 0.3940819799900055,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "variant": "oracle_omega",
+    "action_rmse": 0.10308101773262024,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "variant": "oracle_g",
+    "action_rmse": 0.3759455382823944,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "variant": "B1",
+    "action_rmse": 0.5306807160377502,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "variant": "M",
+    "action_rmse": 0.5075929164886475,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "variant": "M2",
+    "action_rmse": 0.4908936321735382,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "variant": "oracle_q",
+    "action_rmse": 0.23161578178405762,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "variant": "oracle_dq",
+    "action_rmse": 0.4861055016517639,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "variant": "oracle_omega",
+    "action_rmse": 0.5306807160377502,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "variant": "oracle_g",
+    "action_rmse": 0.5306807160377502,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "variant": "B1",
+    "action_rmse": 0.42436325550079346,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "variant": "M",
+    "action_rmse": 0.42822715640068054,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "variant": "M2",
+    "action_rmse": 0.42822715640068054,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "variant": "oracle_q",
+    "action_rmse": 0.42436325550079346,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "variant": "oracle_dq",
+    "action_rmse": 0.42436325550079346,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "variant": "oracle_omega",
+    "action_rmse": 0.09851470589637756,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "variant": "oracle_g",
+    "action_rmse": 0.4076998233795166,
+    "interpretation": "same B1 physical trajectory and copied working LSTM; not closed-loop outcome"
+  }
+]

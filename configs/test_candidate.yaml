@@ -1,0 +1,45 @@
+# Recommendation derived only from pilot seed 0–9. No closed tests executed.
+status: candidate_not_frozen_not_executed
+source: results/pilot_h1/selection.json
+upstream_commit: 276801e46c5d433564f24658bac64f254b7d2d4b
+checkpoint_sha256: 44a0fbceb81f3877833ae9a398d039bea1759cb0d3c8188181013885f70589eb
+runtime:
+  device: cpu
+  threads: 1
+  duration_s: 20.0
+  warmup_s: 2.0
+  simulation_dt_s: 0.002
+  control_decimation: 10
+  command: [0.5, 0.0, 0.0]
+  wall_clock_sleep: false
+adapter:
+  horizon_joints_ms: 20
+  horizon_imu_ms: 20
+  zero_age_behavior: exact_identity
+  compensate_before_normalization: true
+fall:
+  body: pelvis
+  nominal_height_m: 1.0329874238443275
+  height_fraction: 0.6
+  roll_pitch_deg: 60.0
+  persistence_s: 0.2
+  stop_after_confirmed_fall: true
+initialization:
+  joint_perturbation_rad: 0.003
+  paired_states: true
+  reset_policy_memory_between_episodes: true
+closed_test_proposal:
+  seed_start: 100
+  seed_count: 40
+  methods: [B1, M]
+  primary_conditions: [J20, J40, J80, I20, I40, I80]
+  primary_episode_count: 480
+  paired_delivery_schedules: true
+  bootstrap_seed_clusters: true
+  bootstrap_resamples: 5000
+  practical_fall_rate_difference_threshold: 0.10
+  require_interval_lower_above_zero: true
+  estimated_primary_wall_minutes_from_pilot: 9.9
+results:
+  closed_test_executed: false
+  hypothesis_supported: null

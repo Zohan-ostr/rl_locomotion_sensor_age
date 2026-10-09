@@ -1,0 +1,24 @@
+{
+  "source_sha256": {
+    "results/m2_hybrid_h1/comparison.json": "4200c050d9b63e446efd70498b3160acb936802336b30aeb337e9a2d1690e25a",
+    "results/m2_validation_h1/validation_summary.json": "0e50f08003958258c22dac3d4a5b3ed02a28516da1db1802464b47d8354127d5",
+    "results/pilot_h1/groups.csv": "6ea1eafa70e59a57ee5d061627b34c2cb0dd9a15881c983446d5c841b42401d3",
+    "results/m2_validation_h1/extra_summary.json": "2ab7792df9d6f4ad2ccc1c39a4adf913b20eb431d077a906d84c3b6cb584bfcc",
+    "results/m2_h1/selection.json": "6a4eb70eadcc1cc65bc1e4ef524119504bc35bb0795c31a175649618c26589ed",
+    "results/m2_periodic_h1/selection.json": "8294db75329ecefaecd619d55fc8a1d95ea2676a84615848bf0ffd22347a2193",
+    "results/m2_followup_h1/selection.json": "03a81dbed38a0aeb843382a8ff5d95b6935dae3d5b5d945e241ec823c6fe9334",
+    "results/m2_hybrid_h1/selection.json": "1752a53e2209dc504804bb3f6f89f6a8c7bbfdeebb8713c7b276630996e17b21",
+    "results/m2_validation_h1/statistics.json": "adca9c3b22ca77045778dadc754f34440bf0a702fa965543fa0f163b8b87217f",
+    "scripts/build_report_assets.py": "04b84b1a1c54a97be990e3951f7757e5e79749eea83cf8a8f8a2c52ba9088c00"
+  },
+  "new_simulations_run": false,
+  "closed_test_seeds_used": false,
+  "missing_measurements": [
+    "M2 equal-delay conditions"
+  ],
+  "notes": [
+    "RMSE truncated before fall",
+    "Development and validation are separate",
+    "ALL comprises six repeated conditions per seed, not 60 independent seeds"
+  ]
+}

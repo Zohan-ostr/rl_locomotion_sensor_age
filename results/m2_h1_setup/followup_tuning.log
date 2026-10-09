@@ -1,0 +1,73 @@
+{"candidate": "cycle_g1", "seed_done": 0, "elapsed_s": 7.0, "falls_so_far": 3}
+{"candidate": "cycle_g1", "seed_done": 1, "elapsed_s": 13.6, "falls_so_far": 6}
+{"candidate": "cycle_g1", "seed_done": 2, "elapsed_s": 20.35, "falls_so_far": 9}
+{"candidate": "cycle_g1", "seed_done": 3, "elapsed_s": 27.24, "falls_so_far": 12}
+{"candidate": "cycle_g1", "seed_done": 4, "elapsed_s": 33.73, "falls_so_far": 16}
+{"candidate": "cycle_g1", "seed_done": 5, "elapsed_s": 40.42, "falls_so_far": 20}
+{"candidate": "cycle_g1", "seed_done": 6, "elapsed_s": 47.26, "falls_so_far": 24}
+{"candidate": "cycle_g1", "seed_done": 7, "elapsed_s": 53.9, "falls_so_far": 28}
+{"candidate": "cycle_g1", "seed_done": 8, "elapsed_s": 60.51, "falls_so_far": 32}
+{"candidate": "cycle_g1", "seed_done": 9, "elapsed_s": 67.04, "falls_so_far": 36}
+{"candidate": "cycle_g05", "seed_done": 0, "elapsed_s": 75.16, "falls_so_far": 2}
+{"candidate": "cycle_g05", "seed_done": 1, "elapsed_s": 83.13, "falls_so_far": 4}
+{"candidate": "cycle_g05", "seed_done": 2, "elapsed_s": 91.03, "falls_so_far": 6}
+{"candidate": "cycle_g05", "seed_done": 3, "elapsed_s": 98.72, "falls_so_far": 8}
+{"candidate": "cycle_g05", "seed_done": 4, "elapsed_s": 106.71, "falls_so_far": 10}
+{"candidate": "cycle_g05", "seed_done": 5, "elapsed_s": 114.7, "falls_so_far": 12}
+{"candidate": "cycle_g05", "seed_done": 6, "elapsed_s": 122.84, "falls_so_far": 14}
+{"candidate": "cycle_g05", "seed_done": 7, "elapsed_s": 130.99, "falls_so_far": 16}
+{"candidate": "cycle_g05", "seed_done": 8, "elapsed_s": 138.88, "falls_so_far": 18}
+{"candidate": "cycle_g05", "seed_done": 9, "elapsed_s": 147.01, "falls_so_far": 20}
+{"candidate": "confidence_j025", "seed_done": 0, "elapsed_s": 154.69, "falls_so_far": 2}
+{"candidate": "confidence_j025", "seed_done": 1, "elapsed_s": 162.29, "falls_so_far": 4}
+{"candidate": "confidence_j025", "seed_done": 2, "elapsed_s": 170.14, "falls_so_far": 6}
+{"candidate": "confidence_j025", "seed_done": 3, "elapsed_s": 178.2, "falls_so_far": 8}
+{"candidate": "confidence_j025", "seed_done": 4, "elapsed_s": 185.83, "falls_so_far": 10}
+{"candidate": "confidence_j025", "seed_done": 5, "elapsed_s": 193.85, "falls_so_far": 12}
+{"candidate": "confidence_j025", "seed_done": 6, "elapsed_s": 201.47, "falls_so_far": 14}
+{"candidate": "confidence_j025", "seed_done": 7, "elapsed_s": 209.09, "falls_so_far": 16}
+{"candidate": "confidence_j025", "seed_done": 8, "elapsed_s": 216.74, "falls_so_far": 18}
+{"candidate": "confidence_j025", "seed_done": 9, "elapsed_s": 225.24, "falls_so_far": 20}
+{"candidate": "confidence_j0", "seed_done": 0, "elapsed_s": 232.75, "falls_so_far": 2}
+{"candidate": "confidence_j0", "seed_done": 1, "elapsed_s": 240.42, "falls_so_far": 4}
+{"candidate": "confidence_j0", "seed_done": 2, "elapsed_s": 248.89, "falls_so_far": 5}
+{"candidate": "confidence_j0", "seed_done": 3, "elapsed_s": 256.7, "falls_so_far": 7}
+{"candidate": "confidence_j0", "seed_done": 4, "elapsed_s": 264.38, "falls_so_far": 9}
+{"candidate": "confidence_j0", "seed_done": 5, "elapsed_s": 272.15, "falls_so_far": 11}
+{"candidate": "confidence_j0", "seed_done": 6, "elapsed_s": 280.8, "falls_so_far": 12}
+{"candidate": "confidence_j0", "seed_done": 7, "elapsed_s": 288.24, "falls_so_far": 14}
+{"candidate": "confidence_j0", "seed_done": 8, "elapsed_s": 296.18, "falls_so_far": 16}
+{"candidate": "confidence_j0", "seed_done": 9, "elapsed_s": 304.26, "falls_so_far": 18}
+{
+  "candidates": {
+    "cycle_g1": {
+      "n": 60,
+      "falls": 36,
+      "mean_alive_s": 12.925033333333333,
+      "velocity_rmse": 0.5031959787892553,
+      "walking_successes": 20
+    },
+    "cycle_g05": {
+      "n": 60,
+      "falls": 20,
+      "mean_alive_s": 15.207666666666666,
+      "velocity_rmse": 0.3253234901866715,
+      "walking_successes": 40
+    },
+    "confidence_j025": {
+      "n": 60,
+      "falls": 20,
+      "mean_alive_s": 15.8833,
+      "velocity_rmse": 0.3377656983903074,
+      "walking_successes": 40
+    },
+    "confidence_j0": {
+      "n": 60,
+      "falls": 18,
+      "mean_alive_s": 16.07946666666667,
+      "velocity_rmse": 0.34656777161165514,
+      "walking_successes": 40
+    }
+  },
+  "selected": "confidence_j0"
+}

@@ -1,0 +1,68 @@
+{
+  "status": "pilot_recommendation_not_test_result",
+  "test_seeds_used": false,
+  "candidates": {
+    "joints": [
+      {
+        "horizon_ms": 20,
+        "n": 30,
+        "falls": 9,
+        "mean_alive_s": 17.112266666666663,
+        "mean_velocity_rmse_m_s": 0.32862626452906935,
+        "walking_successes": 20
+      },
+      {
+        "horizon_ms": 40,
+        "n": 30,
+        "falls": 10,
+        "mean_alive_s": 15.468533333333335,
+        "mean_velocity_rmse_m_s": 0.39748518330067256,
+        "walking_successes": 10
+      },
+      {
+        "horizon_ms": 80,
+        "n": 30,
+        "falls": 10,
+        "mean_alive_s": 14.904133333333336,
+        "mean_velocity_rmse_m_s": 0.37314239228333584,
+        "walking_successes": 10
+      }
+    ],
+    "imu": [
+      {
+        "horizon_ms": 20,
+        "n": 30,
+        "falls": 10,
+        "mean_alive_s": 15.402333333333333,
+        "mean_velocity_rmse_m_s": 0.32643182590544917,
+        "walking_successes": 20
+      },
+      {
+        "horizon_ms": 40,
+        "n": 30,
+        "falls": 10,
+        "mean_alive_s": 14.65066666666667,
+        "mean_velocity_rmse_m_s": 0.38306935960108895,
+        "walking_successes": 20
+      },
+      {
+        "horizon_ms": 80,
+        "n": 30,
+        "falls": 10,
+        "mean_alive_s": 14.546600000000002,
+        "mean_velocity_rmse_m_s": 0.2599478719700621,
+        "walking_successes": 20
+      }
+    ]
+  },
+  "selected": {
+    "joints_ms": 20,
+    "imu_ms": 20
+  },
+  "ranking": [
+    "fewest_falls",
+    "longest_mean_alive_time",
+    "lowest_mean_velocity_rmse",
+    "smallest_horizon"
+  ]
+}

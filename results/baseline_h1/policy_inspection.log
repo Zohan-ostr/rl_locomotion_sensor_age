@@ -1,0 +1,13 @@
+RecursiveScriptModule(
+  original_name=PolicyExporterLSTM
+  (actor): RecursiveScriptModule(
+    original_name=Sequential
+    (0): RecursiveScriptModule(original_name=Linear)
+    (1): RecursiveScriptModule(original_name=ELU)
+    (2): RecursiveScriptModule(original_name=Linear)
+  )
+  (memory): RecursiveScriptModule(original_name=LSTM)
+)
+forward schema: forward(__torch__.legged_gym.utils.helpers.PolicyExporterLSTM self, Tensor x) -> Tensor
+parameter shapes: [('actor.0.weight', [32, 64], 'cpu'), ('actor.0.bias', [32], 'cpu'), ('actor.2.weight', [10, 32], 'cpu'), ('actor.2.bias', [10], 'cpu'), ('memory.weight_ih_l0', [256, 41], 'cpu'), ('memory.weight_hh_l0', [256, 64], 'cpu'), ('memory.bias_ih_l0', [256], 'cpu'), ('memory.bias_hh_l0', [256], 'cpu')]
+archive members: ['policy_lstm_1/data/0', 'policy_lstm_1/data/1', 'policy_lstm_1/data/2', 'policy_lstm_1/data/3', 'policy_lstm_1/data/4', 'policy_lstm_1/data/5', 'policy_lstm_1/data/6', 'policy_lstm_1/data/7', 'policy_lstm_1/data/8', 'policy_lstm_1/data/9', 'policy_lstm_1/data.pkl', 'policy_lstm_1/code/__torch__/legged_gym/utils/helpers.py', 'policy_lstm_1/code/__torch__/legged_gym/utils/helpers.py.debug_pkl', 'policy_lstm_1/code/__torch__/torch/nn/modules/container.py', 'policy_lstm_1/code/__torch__/torch/nn/modules/container.py.debug_pkl', 'policy_lstm_1/code/__torch__/torch/nn/modules/linear.py', 'policy_lstm_1/code/__torch__/torch/nn/modules/linear.py.debug_pkl', 'policy_lstm_1/code/__torch__/torch/nn/modules/activation.py', 'policy_lstm_1/code/__torch__/torch/nn/modules/activation.py.debug_pkl', 'policy_lstm_1/code/__torch__/torch/nn/modules/linear/___torch_mangle_0.py', 'policy_lstm_1/code/__torch__/torch/nn/modules/linear/___torch_mangle_0.py.debug_pkl', 'policy_lstm_1/code/__torch__/torch/nn/modules/rnn.py', 'policy_lstm_1/code/__torch__/torch/nn/modules/rnn.py.debug_pkl', 'policy_lstm_1/code/__torch__/torch/nn/functional.py', 'policy_lstm_1/code/__torch__/torch/nn/functional.py.debug_pkl', 'policy_lstm_1/code/__torch__/torch/nn/utils/rnn.py', 'policy_lstm_1/code/__torch__/torch/nn/utils/rnn.py.debug_pkl', 'policy_lstm_1/constants.pkl', 'policy_lstm_1/version', 'policy_lstm_1/byteorder', 'policy_lstm_1/.data/serialization_id']

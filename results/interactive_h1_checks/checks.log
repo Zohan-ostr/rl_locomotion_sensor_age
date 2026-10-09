@@ -1,0 +1,9 @@
+test_actual_runs (__main__.DemoTests) ... ok
+test_hold_both_release_and_initial_sample (__main__.DemoTests) ... ok
+test_keyboard_press_repeat_release_focus (__main__.DemoTests) ... ok
+test_orbit_does_not_pan_or_zoom (__main__.DemoTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.048s
+
+OK

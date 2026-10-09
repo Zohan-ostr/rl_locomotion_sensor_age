@@ -1,0 +1,17 @@
+[
+  {
+    "folder": "results/m2_h1/validation/B1",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_h1/validation/M",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_h1/validation/M2",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  }
+]

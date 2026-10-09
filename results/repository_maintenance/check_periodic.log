@@ -1,0 +1,8 @@
+test_causality_and_old_packet (__main__.PeriodicTests) ... ok
+test_exact_fresh_and_horizon_cap (__main__.PeriodicTests) ... ok
+test_periodic_joint_position_and_velocity (__main__.PeriodicTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.030s
+
+OK

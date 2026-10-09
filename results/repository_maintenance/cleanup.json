@@ -1,0 +1,82 @@
+{
+  "removed": [
+    {
+      "path": "scripts/__pycache__/history_compensator.cpython-310.pyc",
+      "bytes": 4155
+    },
+    {
+      "path": "scripts/__pycache__/run_sensor_episode.cpython-310.pyc",
+      "bytes": 18958
+    },
+    {
+      "path": "scripts/__pycache__/validate_m2.cpython-310.pyc",
+      "bytes": 6324
+    },
+    {
+      "path": "scripts/__pycache__/record_pilot_examples.cpython-310.pyc",
+      "bytes": 2605
+    },
+    {
+      "path": "scripts/__pycache__/check_interactive_h1.cpython-310.pyc",
+      "bytes": 4285
+    },
+    {
+      "path": "scripts/__pycache__/summarize_pilot.cpython-310.pyc",
+      "bytes": 10896
+    },
+    {
+      "path": "scripts/__pycache__/plot_pilot.cpython-310.pyc",
+      "bytes": 6166
+    },
+    {
+      "path": "scripts/__pycache__/check_sensor_age.cpython-310.pyc",
+      "bytes": 10523
+    },
+    {
+      "path": "scripts/__pycache__/cycle_compensator.cpython-310.pyc",
+      "bytes": 3746
+    },
+    {
+      "path": "scripts/__pycache__/sensor_age.cpython-310.pyc",
+      "bytes": 6219
+    },
+    {
+      "path": "scripts/__pycache__/periodic_compensator.cpython-310.pyc",
+      "bytes": 4592
+    },
+    {
+      "path": "scripts/__pycache__/conservative_compensator.cpython-310.pyc",
+      "bytes": 2143
+    },
+    {
+      "path": "scripts/__pycache__/check_m2_frontend.cpython-310.pyc",
+      "bytes": 1937
+    },
+    {
+      "path": "scripts/__pycache__/interactive_h1.cpython-310.pyc",
+      "bytes": 21844
+    },
+    {
+      "path": "scripts/__pycache__/run_h1_baseline.cpython-310.pyc",
+      "bytes": 10822
+    },
+    {
+      "path": "scripts/__pycache__/report_m2.cpython-310.pyc",
+      "bytes": 16039
+    },
+    {
+      "path": "scripts/__pycache__/check_h1_sandbox.cpython-310.pyc",
+      "bytes": 4422
+    },
+    {
+      "path": "scripts/__pycache__/hybrid_compensator.cpython-310.pyc",
+      "bytes": 2886
+    },
+    {
+      "path": "scripts/__pycache__/run_pilot.cpython-310.pyc",
+      "bytes": 10435
+    }
+  ],
+  "total_bytes": 148997,
+  "research_data_deleted": false
+}

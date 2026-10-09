@@ -1,0 +1,2574 @@
+{
+  "selection": {
+    "status": "pilot_recommendation_not_test_result",
+    "test_seeds_used": false,
+    "candidates": {
+      "joints": [
+        {
+          "horizon_ms": 20,
+          "n": 30,
+          "falls": 9,
+          "mean_alive_s": 17.112266666666663,
+          "mean_velocity_rmse_m_s": 0.32862626452906935,
+          "walking_successes": 20
+        },
+        {
+          "horizon_ms": 40,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 15.468533333333335,
+          "mean_velocity_rmse_m_s": 0.39748518330067256,
+          "walking_successes": 10
+        },
+        {
+          "horizon_ms": 80,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 14.904133333333336,
+          "mean_velocity_rmse_m_s": 0.37314239228333584,
+          "walking_successes": 10
+        }
+      ],
+      "imu": [
+        {
+          "horizon_ms": 20,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 15.402333333333333,
+          "mean_velocity_rmse_m_s": 0.32643182590544917,
+          "walking_successes": 20
+        },
+        {
+          "horizon_ms": 40,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 14.65066666666667,
+          "mean_velocity_rmse_m_s": 0.38306935960108895,
+          "walking_successes": 20
+        },
+        {
+          "horizon_ms": 80,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 14.546600000000002,
+          "mean_velocity_rmse_m_s": 0.2599478719700621,
+          "walking_successes": 20
+        }
+      ]
+    },
+    "selected": {
+      "joints_ms": 20,
+      "imu_ms": 20
+    },
+    "ranking": [
+      "fewest_falls",
+      "longest_mean_alive_time",
+      "lowest_mean_velocity_rmse",
+      "smallest_horizon"
+    ]
+  },
+  "cases": [
+    {
+      "seed": 0,
+      "condition": "equal20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "equal20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "equal40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "equal40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "equal80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "equal80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "equal120",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "equal120",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_joints_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_joints_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_joints_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_joints_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_imu_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_imu_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_imu_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "drop_imu_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "jitter",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "jitter",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "equal20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "equal20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "equal40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "equal40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "equal80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "equal80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "equal120",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "equal120",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_joints_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_joints_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_joints_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_joints_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_imu_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_imu_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_imu_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "drop_imu_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "jitter",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "jitter",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "equal20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "equal20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "equal40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "equal40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "equal80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "equal80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "equal120",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "equal120",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_joints_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_joints_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_joints_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_joints_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_imu_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_imu_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_imu_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "drop_imu_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "jitter",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "jitter",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "equal20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "equal20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "equal40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "equal40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "equal80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "equal80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "equal120",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "equal120",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_joints_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_joints_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_joints_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_joints_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_imu_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_imu_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_imu_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "drop_imu_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "jitter",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "jitter",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "equal20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "equal20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "equal40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "equal40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "equal80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "equal80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "equal120",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "equal120",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_joints_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_joints_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_joints_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_joints_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_imu_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_imu_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_imu_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "drop_imu_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "jitter",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "jitter",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "equal20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "equal20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "equal40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "equal40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "equal80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "equal80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "equal120",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "equal120",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_joints_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_joints_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_joints_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_joints_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_imu_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_imu_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_imu_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "drop_imu_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "jitter",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "jitter",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "equal20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "equal20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "equal40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "equal40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "equal80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "equal80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "equal120",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "equal120",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_joints_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_joints_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_joints_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_joints_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_imu_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_imu_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_imu_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "drop_imu_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "jitter",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "jitter",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "equal20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "equal20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "equal40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "equal40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "equal80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "equal80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "equal120",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "equal120",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_joints_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_joints_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_joints_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_joints_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_imu_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_imu_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_imu_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "drop_imu_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "jitter",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "jitter",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "equal20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "equal20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "equal40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "equal40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "equal80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "equal80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "equal120",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "equal120",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_joints_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_joints_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_joints_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_joints_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_imu_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_imu_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_imu_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "drop_imu_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "jitter",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "jitter",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "equal20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "equal20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "equal40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "equal40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "equal80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "equal80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "equal120",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "equal120",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_joints_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_joints_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_joints_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_joints_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_imu_1",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_imu_2",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_imu_4",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "drop_imu_6",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "jitter",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "jitter",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J20",
+      "method": "B2",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J20",
+      "method": "AJ",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J20",
+      "method": "AI",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J40",
+      "method": "B2",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J40",
+      "method": "AJ",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J40",
+      "method": "AI",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J80",
+      "method": "B2",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J80",
+      "method": "AJ",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J80",
+      "method": "AI",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I20",
+      "method": "B2",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I20",
+      "method": "AJ",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I20",
+      "method": "AI",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I40",
+      "method": "B2",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I40",
+      "method": "AJ",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I40",
+      "method": "AI",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I80",
+      "method": "B2",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I80",
+      "method": "AJ",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I80",
+      "method": "AI",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    }
+  ]
+}

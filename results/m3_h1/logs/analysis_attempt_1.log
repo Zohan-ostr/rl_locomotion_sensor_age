@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/zohan/projects/rl_locomotion_sensor_age/scripts/analyze_m3.py", line 440, in <module>
+    if __name__=='__main__':main()
+  File "/home/zohan/projects/rl_locomotion_sensor_age/scripts/analyze_m3.py", line 407, in main
+    assert sha('configs/m3_profile.json')==sha(ROOT/'frozen/profile.json')
+  File "/home/zohan/projects/rl_locomotion_sensor_age/scripts/run_h1_baseline.py", line 35, in sha
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+AttributeError: 'str' object has no attribute 'read_bytes'

@@ -1,0 +1,7 @@
+test_distinct_models_horizons_and_fresh_identity (__main__.HybridTests) ... ok
+test_missing_and_future_data_are_rejected (__main__.HybridTests) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.015s
+
+OK

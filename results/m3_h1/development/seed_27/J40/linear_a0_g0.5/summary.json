@@ -1,0 +1,396 @@
+{
+  "seed": 27,
+  "condition": {
+    "id": "J40",
+    "delay_joints_ms": 40
+  },
+  "method": "M3",
+  "oracle_components": [],
+  "record_diagnostics": false,
+  "horizon_joints_ms": 80,
+  "horizon_imu_ms": 80,
+  "adapter_config": {
+    "family": "linear",
+    "model_path": "results/m3_h1/models/actions_0.npz",
+    "gain": 0.5
+  },
+  "schedule_path": "/home/zohan/projects/rl_locomotion_sensor_age/results/m3_h1/inputs/seed_27/J40.json",
+  "schedule_sha256": "a30cd4c5e6543438b4635387b8f0bd36fb0ba575a03729ade5d116c2032cbaff",
+  "initial_state_path": "/home/zohan/projects/rl_locomotion_sensor_age/results/m3_h1/inputs/seed_27/initial.json",
+  "initial_state_sha256": "39d778d313e20656be6ccc8d2d6e71320dea69d7f8630d3e29405d10a5837bdf",
+  "initial_qpos": [
+    0.0,
+    0.0,
+    1.05,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.002536265911975662,
+    0.0019495138630312575,
+    -0.0011888156990965645,
+    0.0007133091040023142,
+    -0.00191420147328039,
+    -0.0010973715882274405,
+    0.002024189192913804,
+    0.0026634515036403766,
+    0.0007203882458346298,
+    0.001483093265213356
+  ],
+  "initial_qvel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "upstream_commit": "276801e46c5d433564f24658bac64f254b7d2d4b",
+  "checkpoint_sha256": "44a0fbceb81f3877833ae9a398d039bea1759cb0d3c8188181013885f70589eb",
+  "scene_sha256": "88ffcccad2c5df71a7472b4b30ec7e4ea06e045efc6b4e11ccd8bebc2848f0b3",
+  "config_sha256": "4e509fa63fda52e38d21d9f1924b7c0d6bf9dfd1c2d9b94450b7f6e7ca281329",
+  "model_asset_sha256": {
+    "resources/robots/h1/h1.xml": "2bee8abddbf4bc093bcdb2266c7139cd1c78e279bf65f7ee9fde41fe599900d4",
+    "resources/robots/h1/meshes/left_ankle_link.STL": "2d403f5414764e600af95d96eaee8ab7e49d2c7f75c1ae3dbbde052d4a14ffa1",
+    "resources/robots/h1/meshes/left_elbow_link.STL": "5ccf9bc83a751c1965b692e75534e57ee3c8a0916cbcff2ccccd8fe2b9d818d7",
+    "resources/robots/h1/meshes/left_hip_pitch_link.STL": "aa790c31ffc100cd182f2bf4480e7bfda675edc58ed8f361b6553a4975c9de3b",
+    "resources/robots/h1/meshes/left_hip_roll_link.STL": "8ed880cf1171e048cfe50489fe2546c32790ac0c24a2b3b4c560495401013552",
+    "resources/robots/h1/meshes/left_hip_yaw_link.STL": "103a854e684b84e1baba7d073822079069c64d0fa7b1592f29d38bd29f545bfb",
+    "resources/robots/h1/meshes/left_knee_link.STL": "efda8a6c54406c788102c0d6e59ea95e24114607bc2da9a2bf7f287ef7e48109",
+    "resources/robots/h1/meshes/left_shoulder_pitch_link.STL": "42e1db49464ca0f44f933114ee426e7f6d6310d20cf104bfa38b5ed4794cfab7",
+    "resources/robots/h1/meshes/left_shoulder_roll_link.STL": "8d3bcf767d72a9a5d7dae539eae79dc4132f0159b8803a6f6f2f9ad4b7e94d19",
+    "resources/robots/h1/meshes/left_shoulder_yaw_link.STL": "e22a5b53f8f307e6c5d6c17f9ceae4852c6468547a951cb39dfdec9ee414b515",
+    "resources/robots/h1/meshes/logo_link.STL": "ef9635c847ca7cd61aeaed86ad599935b648fb6f8688867c0448917b1811511b",
+    "resources/robots/h1/meshes/pelvis.STL": "dc2cbbeb07d3b63bce9fedeb8cf5252609dca1e89380734d22d5b3c8ded2f15c",
+    "resources/robots/h1/meshes/right_ankle_link.STL": "b39f5b3245926e935b9b37bdf25080d482d3be921aa5d70e01fe5f29ef70910a",
+    "resources/robots/h1/meshes/right_elbow_link.STL": "bc1b2aa33cffda279b3e6a40b5b932b86de9cce6c41f0c0d860b442e81edcdc2",
+    "resources/robots/h1/meshes/right_hip_pitch_link.STL": "3c0300dd96432f218857886007e9d4e8be038cd8b85e04e84a59df4de7f90476",
+    "resources/robots/h1/meshes/right_hip_roll_link.STL": "3e95b01b0a215e1d134545d4073cf7a72ab38ca33e35c606c03f1706d63588c6",
+    "resources/robots/h1/meshes/right_hip_yaw_link.STL": "10badbb0ac78e22fc220f421b1c919cfcf59406b412d78313e4b8b06cbc51e47",
+    "resources/robots/h1/meshes/right_knee_link.STL": "6183abbaef2afc775c220853e403b8479022a99954dbeef829b39d71916ddeda",
+    "resources/robots/h1/meshes/right_shoulder_pitch_link.STL": "850ffa7321993bfadcdb8bab1d422239f6a20abe27daa5ef99622f55d4da3217",
+    "resources/robots/h1/meshes/right_shoulder_roll_link.STL": "b9e793e351e09027d27427c06df2c1cb6b37c0205d0f68686b0d73916c6821de",
+    "resources/robots/h1/meshes/right_shoulder_yaw_link.STL": "0c9e4bec895f24c07fb2c4d132fc5e3cc7146155547267e9c270789af6567781",
+    "resources/robots/h1/meshes/torso_link.STL": "3ab785cbfbd851b0e9c59a46871aabc4718f3f8e726e21a2d14360d217ec7ba8",
+    "resources/robots/h1/scene.xml": "88ffcccad2c5df71a7472b4b30ec7e4ea06e045efc6b4e11ccd8bebc2848f0b3",
+    "resources/robots/h1/urdf/h1.urdf": "89c3824f471ec32060d0ffc702a13e296a7010d040a9e3a9c1f320706d42f4de"
+  },
+  "upstream_config": {
+    "policy_path": "{LEGGED_GYM_ROOT_DIR}/deploy/pre_train/h1/motion.pt",
+    "xml_path": "{LEGGED_GYM_ROOT_DIR}/resources/robots/h1/scene.xml",
+    "simulation_duration": 60.0,
+    "simulation_dt": 0.002,
+    "control_decimation": 10,
+    "kps": [
+      150,
+      150,
+      150,
+      200,
+      40,
+      150,
+      150,
+      150,
+      200,
+      40
+    ],
+    "kds": [
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2
+    ],
+    "default_angles": [
+      0,
+      0.0,
+      -0.1,
+      0.3,
+      -0.2,
+      0,
+      0.0,
+      -0.1,
+      0.3,
+      -0.2
+    ],
+    "ang_vel_scale": 0.25,
+    "dof_pos_scale": 1.0,
+    "dof_vel_scale": 0.05,
+    "action_scale": 0.25,
+    "cmd_scale": [
+      2.0,
+      2.0,
+      0.25
+    ],
+    "num_actions": 10,
+    "num_obs": 41,
+    "cmd_init": [
+      0.5,
+      0,
+      0
+    ]
+  },
+  "pilot_config": {
+    "status": "pilot_only_not_closed_test",
+    "runtime": {
+      "duration_s": 20.0,
+      "warmup_s": 2.0,
+      "threads": 1,
+      "device": "cpu",
+      "wall_clock_sleep": false
+    },
+    "initialization": {
+      "joint_perturbation_rad": 0.003,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "fall": {
+      "body": "pelvis",
+      "nominal_height_m": 1.0329874238443275,
+      "nominal_height_source": "results/baseline_h1/headless20/summary.json",
+      "height_fraction": 0.6,
+      "roll_pitch_deg": 60.0,
+      "persistence_s": 0.2,
+      "stop_after_confirmed_fall": true,
+      "status": "pilot_rule_candidate_before_test"
+    },
+    "adapter": {
+      "horizon_candidates_ms": [
+        20,
+        40,
+        80
+      ],
+      "selection": "per_stream_on_its_three_E2_conditions",
+      "ranking": [
+        "fewest_falls",
+        "longest_mean_alive_time",
+        "lowest_mean_velocity_rmse",
+        "smallest_horizon"
+      ],
+      "normalization": "after_prediction"
+    },
+    "statistics": {
+      "walking_rmse_threshold_m_s": 0.2,
+      "bootstrap_resamples": 5000,
+      "bootstrap_rng_seed": 20261008
+    },
+    "scope": {
+      "primary": "E0_and_six_E2_conditions",
+      "extensions_after_selection": "E1_equal_delays_E3_burst_drop_E4_jitter",
+      "diagnostic_methods": "B2_AJ_AI_on_E2_seed_0_only_after_selection",
+      "example_seed": 0,
+      "closed_test_seeds_used": false
+    }
+  },
+  "pilot_config_sha256": "4990ce8f5224dcfcee159c166fb6509f4a2e86136240c1020007c2716b962ee4",
+  "runner_sha256": {
+    "run_sensor_episode.py": "8ba5af876279a9f8b8c97b26116f2e93dd26e3ea732d9ff13bfdc3d923989f91",
+    "sensor_age.py": "24e96c9b50150ee40b50921d62f59d3f267d08173cd164f29fbfb351972180d7",
+    "run_h1_baseline.py": "ec6484018acce734691f61b1c61349444e70f5beab157f6f85c05aed6b811161",
+    "history_compensator.py": "2253093a64a13886a3004432ce772ad377004c0fa86cfad87a78fd936e573338",
+    "periodic_compensator.py": "dea81e160bad0df6db2cfafd068076096f9a65b39fc1f864a8938a01410a82cc",
+    "cycle_compensator.py": "cdbbf12f084b2211d74cef920950d93a8a5e877e297d3284b03cd2f72a25d79f",
+    "conservative_compensator.py": "bda765755f0b4bc8a0d65d3c36bd97e5233687437e11864b0305838002a1c234",
+    "hybrid_compensator.py": "4db9e65d0c00f763f2b5d86bca4f372c7796bfc2a1073ed4ed4eb2a1c7ddf3ba",
+    "linear_compensator.py": "376efaf0be65715b3039102aa83b29d15965954d0476388b4c33fae1ff4357dd"
+  },
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "torch": "2.5.1+cpu",
+  "mujoco": "3.2.7",
+  "numpy": "1.26.4",
+  "cuda_build": null,
+  "torch_threads": 1,
+  "interop_threads": 1,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "joint_order": [
+    "left_hip_yaw_joint",
+    "left_hip_roll_joint",
+    "left_hip_pitch_joint",
+    "left_knee_joint",
+    "left_ankle_joint",
+    "right_hip_yaw_joint",
+    "right_hip_roll_joint",
+    "right_hip_pitch_joint",
+    "right_knee_joint",
+    "right_ankle_joint"
+  ],
+  "shape_probe_memory_restored": true,
+  "initial_policy_buffer_max_abs": {
+    "hidden_state": 0.0,
+    "cell_state": 0.0
+  },
+  "input_shape": [
+    1,
+    41
+  ],
+  "output_shape": [
+    1,
+    10
+  ],
+  "simulation_steps": 10000,
+  "simulation_seconds": 20.0,
+  "mujoco_time_s": 19.999999999999794,
+  "max_episode_seconds": 20.0,
+  "policy_calls": 1000,
+  "command": [
+    0.5,
+    0.0,
+    0.0
+  ],
+  "fallen": false,
+  "fall_time_s": null,
+  "time_alive_s": 20.0,
+  "censored": true,
+  "fall_rule": {
+    "body": "pelvis",
+    "nominal_height_m": 1.0329874238443275,
+    "nominal_height_source": "results/baseline_h1/headless20/summary.json",
+    "height_fraction": 0.6,
+    "roll_pitch_deg": 60.0,
+    "persistence_s": 0.2,
+    "stop_after_confirmed_fall": true,
+    "status": "pilot_rule_candidate_before_test"
+  },
+  "height_threshold_m": 0.6197924543065965,
+  "height_min_m": 0.9903059429559616,
+  "max_abs_roll_pitch_deg": [
+    2.1198467718479286,
+    2.270931845937808
+  ],
+  "displacement_xy_m": [
+    7.771191032688929,
+    0.8404766989292565
+  ],
+  "path_length_xy_m": 8.22451610495471,
+  "mean_vx_yaw_after_warmup_before_fall_m_s": 0.3964556756328952,
+  "velocity_rmse_after_warmup_before_fall_m_s": 0.17879571482411014,
+  "velocity_valid_samples": 901,
+  "walking_success": true,
+  "joint_prediction_rmse_rad": 0.017478491399493035,
+  "gravity_prediction_mean_angle_rad": 0.0,
+  "action_increment_mean_l2": 0.5811021652519703,
+  "ages_s": {
+    "joints": {
+      "median": 0.04,
+      "p95": 0.04,
+      "max": 0.04
+    },
+    "imu": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    }
+  },
+  "transport": {
+    "joints": {
+      "arrived": 999,
+      "accepted": 999,
+      "rejected_old": 0,
+      "dropped_sample_count_executed": 0
+    },
+    "imu": {
+      "arrived": 1001,
+      "accepted": 1001,
+      "rejected_old": 0,
+      "dropped_sample_count_executed": 0
+    }
+  },
+  "floor_contact_steps": {
+    "left_ankle_link": 5879,
+    "right_ankle_link": 5675,
+    "pelvis": 0
+  },
+  "floor_contact_onsets": {
+    "left_ankle_link": 27,
+    "right_ankle_link": 27,
+    "pelvis": 0
+  },
+  "wall_seconds_loop": 1.7695722969983763,
+  "cpu_seconds_loop": 1.768827549000008,
+  "simulation_to_wall_ratio": 11.302166084948803,
+  "timing_ms": {
+    "adapter_ms": {
+      "median": 0.4729370011773426,
+      "p95": 0.5322754524968332,
+      "max": 0.7551339986093808
+    },
+    "inference_ms": {
+      "median": 0.1427805000275839,
+      "p95": 0.17600384871911956,
+      "max": 3.5861760006810073
+    },
+    "control_cycle_ms": {
+      "median": 1.7907165001815883,
+      "p95": 1.9627090503490763,
+      "max": 4.7046749969013035
+    }
+  },
+  "mujoco_warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "video": false,
+  "signal_stream_order": [
+    "joints",
+    "imu"
+  ],
+  "test_seeds_used": false,
+  "adapter_model_sha256": "6c7cb9cf535286e2846cd0e6d607527827ce66d0d7587b7f6fb8a3b367ff43fa"
+}

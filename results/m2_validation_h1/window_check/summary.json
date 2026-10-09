@@ -1,0 +1,188 @@
+{
+  "status": "completed",
+  "simulation_seconds": 16.00000000000201,
+  "wall_seconds": 16.299829572000817,
+  "compensator": "m2",
+  "m2_profile": {
+    "status": "development_candidate_frozen_before_additional_validation",
+    "selection": {
+      "root": "results/m2_hybrid_h1",
+      "candidate": "hybrid",
+      "n": 60,
+      "falls": 18,
+      "mean_alive_s": 16.4764,
+      "velocity_rmse": 0.3075353845960425,
+      "walking_successes": 40
+    },
+    "adapter_config": {
+      "family": "hybrid",
+      "joints": {
+        "family": "periodic",
+        "config": {
+          "period": 0.8,
+          "history": 60,
+          "harmonics": 3,
+          "ridge": 0.001,
+          "gain": 0.5,
+          "joint_correction_limit": 0.35,
+          "velocity_correction_limit": 6.0,
+          "omega_correction_limit": 2.0
+        }
+      },
+      "imu": {
+        "family": "legacy",
+        "config": {}
+      }
+    },
+    "horizon_joints_ms": 120,
+    "horizon_imu_ms": 20,
+    "closed_test_seeds_used": false,
+    "not_validated_yet": false
+  },
+  "m2_profile_sha256": "43ade10b761fd13c5a3fdf689da27726f3cc2ae9909677d48a4f422697726c78",
+  "method": "M",
+  "initial_method": "B1",
+  "sandbox": true,
+  "reset_count": 1,
+  "fall_history_s": [],
+  "duration_limit_s": 16.0,
+  "horizons_ms": {
+    "joints": 20,
+    "imu": 20
+  },
+  "headless": false,
+  "scripted_blocks": [
+    [
+      "joints",
+      10.0,
+      10.12
+    ]
+  ],
+  "command": [
+    0.5,
+    0.0,
+    0.0
+  ],
+  "fall_time_s": null,
+  "displacement_xy_m": [
+    5.032629853144513,
+    -0.007393031149378465
+  ],
+  "dropped_packets": {
+    "joints": 6,
+    "imu": 0
+  },
+  "max_ages_s": {
+    "joints": 0.12,
+    "imu": 0.0
+  },
+  "policy_calls": 800,
+  "mujoco_warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "argv": [
+    "scripts/interactive_h1.py",
+    "--sandbox",
+    "--compensator",
+    "m2",
+    "--seconds",
+    "16",
+    "--event",
+    "3:c",
+    "--event",
+    "5:w",
+    "--event",
+    "6:r",
+    "--event",
+    "8:w",
+    "--block",
+    "joints:10:10.12",
+    "--output",
+    "results/m2_validation_h1/window_check"
+  ],
+  "python": "3.10.12",
+  "torch": "2.5.1+cpu",
+  "mujoco": "3.2.7",
+  "numpy": "1.26.4",
+  "cuda_build": null,
+  "cpu": "12th Gen Intel(R) Core(TM) i9-12900H",
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "torch_threads": 1,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "upstream_commit": "276801e46c5d433564f24658bac64f254b7d2d4b",
+  "checkpoint_sha256": "44a0fbceb81f3877833ae9a398d039bea1759cb0d3c8188181013885f70589eb",
+  "config_sha256": "4e509fa63fda52e38d21d9f1924b7c0d6bf9dfd1c2d9b94450b7f6e7ca281329",
+  "asset_sha256": {
+    "resources/robots/h1/h1.xml": "2bee8abddbf4bc093bcdb2266c7139cd1c78e279bf65f7ee9fde41fe599900d4",
+    "resources/robots/h1/meshes/left_ankle_link.STL": "2d403f5414764e600af95d96eaee8ab7e49d2c7f75c1ae3dbbde052d4a14ffa1",
+    "resources/robots/h1/meshes/left_elbow_link.STL": "5ccf9bc83a751c1965b692e75534e57ee3c8a0916cbcff2ccccd8fe2b9d818d7",
+    "resources/robots/h1/meshes/left_hip_pitch_link.STL": "aa790c31ffc100cd182f2bf4480e7bfda675edc58ed8f361b6553a4975c9de3b",
+    "resources/robots/h1/meshes/left_hip_roll_link.STL": "8ed880cf1171e048cfe50489fe2546c32790ac0c24a2b3b4c560495401013552",
+    "resources/robots/h1/meshes/left_hip_yaw_link.STL": "103a854e684b84e1baba7d073822079069c64d0fa7b1592f29d38bd29f545bfb",
+    "resources/robots/h1/meshes/left_knee_link.STL": "efda8a6c54406c788102c0d6e59ea95e24114607bc2da9a2bf7f287ef7e48109",
+    "resources/robots/h1/meshes/left_shoulder_pitch_link.STL": "42e1db49464ca0f44f933114ee426e7f6d6310d20cf104bfa38b5ed4794cfab7",
+    "resources/robots/h1/meshes/left_shoulder_roll_link.STL": "8d3bcf767d72a9a5d7dae539eae79dc4132f0159b8803a6f6f2f9ad4b7e94d19",
+    "resources/robots/h1/meshes/left_shoulder_yaw_link.STL": "e22a5b53f8f307e6c5d6c17f9ceae4852c6468547a951cb39dfdec9ee414b515",
+    "resources/robots/h1/meshes/logo_link.STL": "ef9635c847ca7cd61aeaed86ad599935b648fb6f8688867c0448917b1811511b",
+    "resources/robots/h1/meshes/pelvis.STL": "dc2cbbeb07d3b63bce9fedeb8cf5252609dca1e89380734d22d5b3c8ded2f15c",
+    "resources/robots/h1/meshes/right_ankle_link.STL": "b39f5b3245926e935b9b37bdf25080d482d3be921aa5d70e01fe5f29ef70910a",
+    "resources/robots/h1/meshes/right_elbow_link.STL": "bc1b2aa33cffda279b3e6a40b5b932b86de9cce6c41f0c0d860b442e81edcdc2",
+    "resources/robots/h1/meshes/right_hip_pitch_link.STL": "3c0300dd96432f218857886007e9d4e8be038cd8b85e04e84a59df4de7f90476",
+    "resources/robots/h1/meshes/right_hip_roll_link.STL": "3e95b01b0a215e1d134545d4073cf7a72ab38ca33e35c606c03f1706d63588c6",
+    "resources/robots/h1/meshes/right_hip_yaw_link.STL": "10badbb0ac78e22fc220f421b1c919cfcf59406b412d78313e4b8b06cbc51e47",
+    "resources/robots/h1/meshes/right_knee_link.STL": "6183abbaef2afc775c220853e403b8479022a99954dbeef829b39d71916ddeda",
+    "resources/robots/h1/meshes/right_shoulder_pitch_link.STL": "850ffa7321993bfadcdb8bab1d422239f6a20abe27daa5ef99622f55d4da3217",
+    "resources/robots/h1/meshes/right_shoulder_roll_link.STL": "b9e793e351e09027d27427c06df2c1cb6b37c0205d0f68686b0d73916c6821de",
+    "resources/robots/h1/meshes/right_shoulder_yaw_link.STL": "0c9e4bec895f24c07fb2c4d132fc5e3cc7146155547267e9c270789af6567781",
+    "resources/robots/h1/meshes/torso_link.STL": "3ab785cbfbd851b0e9c59a46871aabc4718f3f8e726e21a2d14360d217ec7ba8",
+    "resources/robots/h1/scene.xml": "88ffcccad2c5df71a7472b4b30ec7e4ea06e045efc6b4e11ccd8bebc2848f0b3",
+    "resources/robots/h1/urdf/h1.urdf": "89c3824f471ec32060d0ffc702a13e296a7010d040a9e3a9c1f320706d42f4de"
+  },
+  "source_sha256": {
+    "interactive_h1.py": "0890814a0bfb01e679a7c13eb6e977a8dc6aadc47d92171224136048e4d4dd3b",
+    "sensor_age.py": "e09ea7899e86167f29e2e7800c63dc13744d0c0001191e1ae8c8e85653b2ca5d",
+    "run_h1_baseline.py": "ec6484018acce734691f61b1c61349444e70f5beab157f6f85c05aed6b811161",
+    "hybrid_compensator.py": "4db9e65d0c00f763f2b5d86bca4f372c7796bfc2a1073ed4ed4eb2a1c7ddf3ba",
+    "history_compensator.py": "2253093a64a13886a3004432ce772ad377004c0fa86cfad87a78fd936e573338",
+    "periodic_compensator.py": "dea81e160bad0df6db2cfafd068076096f9a65b39fc1f864a8938a01410a82cc",
+    "cycle_compensator.py": "cdbbf12f084b2211d74cef920950d93a8a5e877e297d3284b03cd2f72a25d79f",
+    "conservative_compensator.py": "bda765755f0b4bc8a0d65d3c36bd97e5233687437e11864b0305838002a1c234"
+  },
+  "fresh_local_pd": true,
+  "signal_stream_order": [
+    "joints",
+    "imu"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "selected": "hybrid",
+  "groups": {
+    "ALL": {
+      "B1": {
+        "n": 60,
+        "falls": 18,
+        "mean_alive_s": 16.150766666666666,
+        "velocity_rmse": 0.3380044074236538,
+        "walking_successes": 40
+      },
+      "M": {
+        "n": 60,
+        "falls": 19,
+        "mean_alive_s": 16.2573,
+        "velocity_rmse": 0.32752904521725934,
+        "walking_successes": 40
+      },
+      "M2": {
+        "n": 60,
+        "falls": 18,
+        "mean_alive_s": 16.4764,
+        "velocity_rmse": 0.3075353845960425,
+        "walking_successes": 40
+      }
+    },
+    "J20": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.1473460842768707,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.1705934141463273,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.14413604165287028,
+        "walking_successes": 10
+      }
+    },
+    "J40": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.15190786269049156,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.1830026737883454,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.13645895143615455,
+        "walking_successes": 10
+      }
+    },
+    "J80": {
+      "B1": {
+        "n": 10,
+        "falls": 8,
+        "mean_alive_s": 10.655800000000001,
+        "velocity_rmse": 0.7238596958474977,
+        "walking_successes": 0
+      },
+      "M": {
+        "n": 10,
+        "falls": 9,
+        "mean_alive_s": 11.3368,
+        "velocity_rmse": 0.6322827056525355,
+        "walking_successes": 0
+      },
+      "M2": {
+        "n": 10,
+        "falls": 8,
+        "mean_alive_s": 12.6514,
+        "velocity_rmse": 0.585321836770883,
+        "walking_successes": 0
+      }
+    },
+    "I20": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.1581524493662434,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.14557235488794065,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.14557235488794065,
+        "walking_successes": 10
+      }
+    },
+    "I40": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.17454686494432708,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.15841383608659823,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.15841383608659823,
+        "walking_successes": 10
+      }
+    },
+    "I80": {
+      "B1": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 6.2488,
+        "velocity_rmse": 0.6722134874164929,
+        "walking_successes": 0
+      },
+      "M": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 6.206999999999999,
+        "velocity_rmse": 0.6753092867418087,
+        "walking_successes": 0
+      },
+      "M2": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 6.206999999999999,
+        "velocity_rmse": 0.6753092867418087,
+        "walking_successes": 0
+      }
+    }
+  },
+  "paired_fall_differences": {
+    "B1-M2": {
+      "mean": 0.0,
+      "descriptive_95_interval": [
+        -0.05,
+        0.05
+      ]
+    },
+    "M-M2": {
+      "mean": 0.016666666666666666,
+      "descriptive_95_interval": [
+        -0.03333333333333333,
+        0.06666666666666667
+      ]
+    }
+  },
+  "independent_test": false,
+  "closed_test_seeds_used": false,
+  "hypothesis_supported": null,
+  "comparisons_from_preserved_pilot": true
+}

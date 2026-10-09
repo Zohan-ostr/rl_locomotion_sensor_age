@@ -1,0 +1,5 @@
+{
+  "closed_oracle_episodes": 16,
+  "noninvasive_forward_check": true,
+  "nominal_alias_physics_check": true
+}

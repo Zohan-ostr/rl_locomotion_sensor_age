@@ -1,0 +1,24 @@
+test_clock_reversal_rejected (__main__.SensorTests) ... ok
+test_constant_joint_velocity_and_limit (__main__.SensorTests) ... ok
+test_future_sample_rejected (__main__.SensorTests) ... ok
+test_gravity_rotation_sign_and_norm (__main__.SensorTests) ... ok
+test_horizon_cap_does_not_return_to_old_value (__main__.SensorTests) ... ok
+test_jitter_reorders_and_respects_causality (__main__.SensorTests) ... ok
+test_loss_holds_value_and_age_grows_from_sample_time (__main__.SensorTests) ... ok
+test_packet_timestamps_and_snapshot (__main__.SensorTests) ... ok
+test_per_stream_age_and_payload_not_mutated (__main__.SensorTests) ... ok
+test_reordering_old_arrival_rejected (__main__.SensorTests) ... ok
+test_schedule_reproducible_warmup_and_loss (__main__.SensorTests) ... ok
+test_simultaneous_arrivals_select_newest (__main__.SensorTests) ... ok
+test_undelivered_packet_never_leaks (__main__.SensorTests) ... ok
+test_zero_age_is_exact_identity_even_outside_limits (__main__.SensorTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.027s
+
+OK
+{
+  "unit_checks": 14,
+  "passed": true,
+  "episode_audits": []
+}

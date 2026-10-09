@@ -1,0 +1,28 @@
+{
+  "seed": 100,
+  "condition": {
+    "id": "I80",
+    "delay_imu_ms": 80
+  },
+  "method": "M3",
+  "fallen": false,
+  "time_alive_s": 20.0,
+  "velocity_rmse_after_warmup_before_fall_m_s": 0.17450784562615737,
+  "timing_ms": {
+    "adapter_ms": {
+      "median": 0.8603120022598887,
+      "p95": 1.1688668972055893,
+      "max": 48.78683799688588
+    },
+    "inference_ms": {
+      "median": 0.32302900035574567,
+      "p95": 0.4789656986758927,
+      "max": 9.803660999750718
+    },
+    "control_cycle_ms": {
+      "median": 3.7264224993123207,
+      "p95": 4.869814747871715,
+      "max": 52.4490860007063
+    }
+  }
+}

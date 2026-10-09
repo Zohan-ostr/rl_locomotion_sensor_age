@@ -1,0 +1,90 @@
+[
+  {
+    "seed": 26,
+    "condition": "J80",
+    "method": "B1",
+    "n_decisions": 306,
+    "q_error_rad": 0.16300664842128754,
+    "dq_error_rad_s": 3.8119332790374756,
+    "omega_error_rad_s": 0.0,
+    "g_vector_error": 0.0,
+    "action_rmse": 0.6188616156578064
+  },
+  {
+    "seed": 26,
+    "condition": "J80",
+    "method": "M",
+    "n_decisions": 306,
+    "q_error_rad": 0.14763352274894714,
+    "dq_error_rad_s": 3.8119332790374756,
+    "omega_error_rad_s": 0.0,
+    "g_vector_error": 0.0,
+    "action_rmse": 0.5787793397903442
+  },
+  {
+    "seed": 26,
+    "condition": "J80",
+    "method": "M2",
+    "n_decisions": 306,
+    "q_error_rad": 0.1423826962709427,
+    "dq_error_rad_s": 3.689460039138794,
+    "omega_error_rad_s": 0.0,
+    "g_vector_error": 0.0,
+    "action_rmse": 0.5435782670974731
+  },
+  {
+    "seed": 26,
+    "condition": "J80",
+    "method": "M3",
+    "n_decisions": 306,
+    "q_error_rad": 0.15122775733470917,
+    "dq_error_rad_s": 2.7832398414611816,
+    "omega_error_rad_s": 0.0,
+    "g_vector_error": 0.0,
+    "action_rmse": 0.5458008646965027
+  },
+  {
+    "seed": 26,
+    "condition": "I80",
+    "method": "B1",
+    "n_decisions": 221,
+    "q_error_rad": 0.0,
+    "dq_error_rad_s": 0.0,
+    "omega_error_rad_s": 1.9910759925842285,
+    "g_vector_error": 0.07793772965669632,
+    "action_rmse": 0.5997411012649536
+  },
+  {
+    "seed": 26,
+    "condition": "I80",
+    "method": "M",
+    "n_decisions": 221,
+    "q_error_rad": 0.0,
+    "dq_error_rad_s": 0.0,
+    "omega_error_rad_s": 1.9910759925842285,
+    "g_vector_error": 0.06482323259115219,
+    "action_rmse": 0.6050864458084106
+  },
+  {
+    "seed": 26,
+    "condition": "I80",
+    "method": "M2",
+    "n_decisions": 221,
+    "q_error_rad": 0.0,
+    "dq_error_rad_s": 0.0,
+    "omega_error_rad_s": 1.9910759925842285,
+    "g_vector_error": 0.06482323259115219,
+    "action_rmse": 0.6050864458084106
+  },
+  {
+    "seed": 26,
+    "condition": "I80",
+    "method": "M3",
+    "n_decisions": 221,
+    "q_error_rad": 0.0,
+    "dq_error_rad_s": 0.0,
+    "omega_error_rad_s": 1.287469744682312,
+    "g_vector_error": 0.046136897057294846,
+    "action_rmse": 0.41245731711387634
+  }
+]

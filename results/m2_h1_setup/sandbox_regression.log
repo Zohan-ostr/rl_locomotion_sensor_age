@@ -1,0 +1,8 @@
+test_actual_controls_chunks_reset (__main__.SandboxTests) ... ok
+test_reset_pose_velocity_clock_memory (__main__.SandboxTests) ... ok
+test_switches_ignore_repeat_and_release (__main__.SandboxTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.166s
+
+OK

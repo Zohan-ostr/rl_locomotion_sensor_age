@@ -1,0 +1,111 @@
+# Предложенная спецификация, не конфигурация уже реализованного runner.
+status: planned_not_executed
+prepared_on: "2026-10-07"
+
+upstream:
+  repository: "https://github.com/unitreerobotics/unitree_rl_gym"
+  inspected_commit: "276801e46c5d433564f24658bac64f254b7d2d4b"
+  candidate_robot: h1
+  inspected_config: "deploy/deploy_mujoco/configs/h1.yaml"
+  candidate_checkpoint: "deploy/pre_train/h1/motion.pt"
+  checkpoint_sha256: null
+  candidate_xml: "resources/robots/h1/scene.xml"
+  xml_sha256: null
+
+runtime:
+  device: cpu
+  headless: true
+  simulation_dt_s: 0.002
+  control_decimation: 10
+  control_dt_s: 0.02
+  episode_duration_s: 20.0
+  warmup_duration_s: 2.0
+  wall_clock_sleep: false
+  command: [0.5, 0.0, 0.0]
+  observation_dim_expected: 41
+  action_dim_expected: 10
+
+sensors:
+  primary_sample_period_s: 0.02
+  streams:
+    imu: [gravity_body, angular_velocity_body]
+    joints: [joint_positions, joint_velocities]
+  fault_location: policy_input_only
+  local_pd_feedback: fresh
+  action_delay_s: 0.0
+  missing_packet_behavior: hold_last_delivered
+  packet_selection: newest_sample_time_among_delivered
+  reject_old_arrivals: true
+  timestamps: synchronized_simulation_clock
+  additive_noise_primary: false
+
+adapter:
+  type: bounded_kinematic_prediction
+  use_per_stream_age: true
+  zero_age_behavior: exact_identity
+  compensate_before_normalization: true
+  joint_velocity_model: constant
+  angular_velocity_model: constant_body_frame
+  horizon_candidates_ms: [20, 40, 80]
+  horizon_joint_ms_selected: null
+  horizon_imu_ms_selected: null
+  joint_limits_source: xml_model
+  horizon_exceeded_behavior: prediction_at_capped_horizon
+
+methods:
+  primary: [B1_hold_last, M_per_stream_age]
+  clean_control: B0_fresh
+  diagnostics: [B2_shared_age_max, AJ_joints_only, AI_imu_only]
+
+seeds:
+  tuning: {start: 0, count: 10}
+  test: {start: 100, count: 40}
+  paired_initial_states: true
+  paired_delivery_schedules: true
+  proposed_joint_position_perturbation_rad: 0.003
+
+conditions:
+  E0_clean: {delay_joint_ms: 0, delay_imu_ms: 0}
+  E1_equal_delays_ms: [20, 40, 80, 120]
+  E2_primary_asynchronous:
+    - {id: J20, delay_joint_ms: 20, delay_imu_ms: 0}
+    - {id: J40, delay_joint_ms: 40, delay_imu_ms: 0}
+    - {id: J80, delay_joint_ms: 80, delay_imu_ms: 0}
+    - {id: I20, delay_joint_ms: 0, delay_imu_ms: 20}
+    - {id: I40, delay_joint_ms: 0, delay_imu_ms: 40}
+    - {id: I80, delay_joint_ms: 0, delay_imu_ms: 80}
+  E2_extra_delay_pairs_ms: [[20, 80], [80, 20], [40, 120], [120, 40]]
+  E3_burst_drop:
+    missing_packets: [1, 2, 4, 6]
+    affected_streams: [imu, joints]
+    bursts_per_episode: 1
+    onset_interval_s: [5.0, 10.0]
+  E4_jitter:
+    per_packet_delay_choices_ms: [0, 20, 40]
+    independent_streams: true
+    primary_packet_loss: false
+
+fall:
+  nominal_body_height_m: null
+  body_name: null
+  height_fraction_threshold: 0.6
+  roll_or_pitch_threshold_deg: 60.0
+  persistence_s: 0.2
+  rule_status: finalize_on_pilot_before_test
+
+statistics:
+  primary_endpoint: fall_probability
+  primary_aggregation: equal_weight_six_E2_conditions
+  point_interval: wilson_95
+  paired_difference_interval: bootstrap_seed_clusters_95
+  bootstrap_resamples_proposed: 5000
+  practical_absolute_improvement_threshold: 0.10
+  require_difference_interval_lower_above_zero: true
+  identity_tolerance_proposed: 0.000001
+  cpu_adapter_p95_budget_ms: 20.0
+  walking_success_rmse_threshold_m_s_proposed: 0.2
+
+results:
+  executed: false
+  measured_fall_rates: null
+  hypothesis_supported: null

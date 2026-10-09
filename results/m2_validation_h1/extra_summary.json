@@ -1,0 +1,1072 @@
+[
+  {
+    "seed": 0,
+    "condition": {
+      "id": "clean"
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14695686423527624
+  },
+  {
+    "seed": 0,
+    "condition": {
+      "id": "jitter",
+      "jitter": true
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.13983863890010376
+  },
+  {
+    "seed": 0,
+    "condition": {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14706199221920951
+  },
+  {
+    "seed": 0,
+    "condition": {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1469832620752262
+  },
+  {
+    "seed": 0,
+    "condition": {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1458575266434348
+  },
+  {
+    "seed": 0,
+    "condition": {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14511675739404944
+  },
+  {
+    "seed": 0,
+    "condition": {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14699100534924492
+  },
+  {
+    "seed": 0,
+    "condition": {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14703723921042283
+  },
+  {
+    "seed": 0,
+    "condition": {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1477802801588846
+  },
+  {
+    "seed": 0,
+    "condition": {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1491531868623898
+  },
+  {
+    "seed": 1,
+    "condition": {
+      "id": "clean"
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14698795132209766
+  },
+  {
+    "seed": 1,
+    "condition": {
+      "id": "jitter",
+      "jitter": true
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.13947663104692973
+  },
+  {
+    "seed": 1,
+    "condition": {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14703218041558963
+  },
+  {
+    "seed": 1,
+    "condition": {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14693770915789958
+  },
+  {
+    "seed": 1,
+    "condition": {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14711396087615589
+  },
+  {
+    "seed": 1,
+    "condition": {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1462480236775666
+  },
+  {
+    "seed": 1,
+    "condition": {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1471065104926096
+  },
+  {
+    "seed": 1,
+    "condition": {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14706125999524813
+  },
+  {
+    "seed": 1,
+    "condition": {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14735429871891184
+  },
+  {
+    "seed": 1,
+    "condition": {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14838677455417124
+  },
+  {
+    "seed": 2,
+    "condition": {
+      "id": "clean"
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14694714056689318
+  },
+  {
+    "seed": 2,
+    "condition": {
+      "id": "jitter",
+      "jitter": true
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1401353535726586
+  },
+  {
+    "seed": 2,
+    "condition": {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14695979977949397
+  },
+  {
+    "seed": 2,
+    "condition": {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14680449512008595
+  },
+  {
+    "seed": 2,
+    "condition": {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14707333418948762
+  },
+  {
+    "seed": 2,
+    "condition": {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14699004333126253
+  },
+  {
+    "seed": 2,
+    "condition": {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14693560930206762
+  },
+  {
+    "seed": 2,
+    "condition": {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14690864090643127
+  },
+  {
+    "seed": 2,
+    "condition": {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1467918048068859
+  },
+  {
+    "seed": 2,
+    "condition": {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14788398842953507
+  },
+  {
+    "seed": 3,
+    "condition": {
+      "id": "clean"
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14699013093251406
+  },
+  {
+    "seed": 3,
+    "condition": {
+      "id": "jitter",
+      "jitter": true
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.13975642541677435
+  },
+  {
+    "seed": 3,
+    "condition": {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1469827535920891
+  },
+  {
+    "seed": 3,
+    "condition": {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14708494553970047
+  },
+  {
+    "seed": 3,
+    "condition": {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1468344234928359
+  },
+  {
+    "seed": 3,
+    "condition": {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14680508795978506
+  },
+  {
+    "seed": 3,
+    "condition": {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14716439760161124
+  },
+  {
+    "seed": 3,
+    "condition": {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14711715087507105
+  },
+  {
+    "seed": 3,
+    "condition": {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1476689071210081
+  },
+  {
+    "seed": 3,
+    "condition": {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14928503753370886
+  },
+  {
+    "seed": 4,
+    "condition": {
+      "id": "clean"
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1468442876807488
+  },
+  {
+    "seed": 4,
+    "condition": {
+      "id": "jitter",
+      "jitter": true
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14066212561237112
+  },
+  {
+    "seed": 4,
+    "condition": {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14674323132218922
+  },
+  {
+    "seed": 4,
+    "condition": {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14667854757033
+  },
+  {
+    "seed": 4,
+    "condition": {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14627006648325758
+  },
+  {
+    "seed": 4,
+    "condition": {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14551350350709483
+  },
+  {
+    "seed": 4,
+    "condition": {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14689248696208532
+  },
+  {
+    "seed": 4,
+    "condition": {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14684778507605037
+  },
+  {
+    "seed": 4,
+    "condition": {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14680718129097253
+  },
+  {
+    "seed": 4,
+    "condition": {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14824179170743962
+  },
+  {
+    "seed": 5,
+    "condition": {
+      "id": "clean"
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14688660297051723
+  },
+  {
+    "seed": 5,
+    "condition": {
+      "id": "jitter",
+      "jitter": true
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1388802120104048
+  },
+  {
+    "seed": 5,
+    "condition": {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14700574282958925
+  },
+  {
+    "seed": 5,
+    "condition": {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14705467462129548
+  },
+  {
+    "seed": 5,
+    "condition": {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14675262924672064
+  },
+  {
+    "seed": 5,
+    "condition": {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1475571262081181
+  },
+  {
+    "seed": 5,
+    "condition": {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14696264625072922
+  },
+  {
+    "seed": 5,
+    "condition": {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1471601709695789
+  },
+  {
+    "seed": 5,
+    "condition": {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14718784981007313
+  },
+  {
+    "seed": 5,
+    "condition": {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14775792195789145
+  },
+  {
+    "seed": 6,
+    "condition": {
+      "id": "clean"
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1471137796528352
+  },
+  {
+    "seed": 6,
+    "condition": {
+      "id": "jitter",
+      "jitter": true
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14189089475247968
+  },
+  {
+    "seed": 6,
+    "condition": {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1470682973568094
+  },
+  {
+    "seed": 6,
+    "condition": {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14704482478450187
+  },
+  {
+    "seed": 6,
+    "condition": {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14742505582875007
+  },
+  {
+    "seed": 6,
+    "condition": {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14704131757405453
+  },
+  {
+    "seed": 6,
+    "condition": {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14723813808276257
+  },
+  {
+    "seed": 6,
+    "condition": {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.147384913510878
+  },
+  {
+    "seed": 6,
+    "condition": {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14870136716673477
+  },
+  {
+    "seed": 6,
+    "condition": {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.15049401359263714
+  },
+  {
+    "seed": 7,
+    "condition": {
+      "id": "clean"
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1467699650211908
+  },
+  {
+    "seed": 7,
+    "condition": {
+      "id": "jitter",
+      "jitter": true
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.13723120746808512
+  },
+  {
+    "seed": 7,
+    "condition": {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.146790510300513
+  },
+  {
+    "seed": 7,
+    "condition": {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14683132601921992
+  },
+  {
+    "seed": 7,
+    "condition": {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14688435747222653
+  },
+  {
+    "seed": 7,
+    "condition": {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14697874997629995
+  },
+  {
+    "seed": 7,
+    "condition": {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1467287257524976
+  },
+  {
+    "seed": 7,
+    "condition": {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1468827500915641
+  },
+  {
+    "seed": 7,
+    "condition": {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1468910667185726
+  },
+  {
+    "seed": 7,
+    "condition": {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1476030295509674
+  },
+  {
+    "seed": 8,
+    "condition": {
+      "id": "clean"
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14692481980316122
+  },
+  {
+    "seed": 8,
+    "condition": {
+      "id": "jitter",
+      "jitter": true
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.13952417353244617
+  },
+  {
+    "seed": 8,
+    "condition": {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1470784396688077
+  },
+  {
+    "seed": 8,
+    "condition": {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14711266515987617
+  },
+  {
+    "seed": 8,
+    "condition": {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14643443704254214
+  },
+  {
+    "seed": 8,
+    "condition": {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1455623890627645
+  },
+  {
+    "seed": 8,
+    "condition": {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14686200709826658
+  },
+  {
+    "seed": 8,
+    "condition": {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14696263295962853
+  },
+  {
+    "seed": 8,
+    "condition": {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14661084697949064
+  },
+  {
+    "seed": 8,
+    "condition": {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14618538369442208
+  },
+  {
+    "seed": 9,
+    "condition": {
+      "id": "clean"
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.146870433479394
+  },
+  {
+    "seed": 9,
+    "condition": {
+      "id": "jitter",
+      "jitter": true
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1456013655613645
+  },
+  {
+    "seed": 9,
+    "condition": {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1470373032296168
+  },
+  {
+    "seed": 9,
+    "condition": {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14673675080401033
+  },
+  {
+    "seed": 9,
+    "condition": {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14732385482019414
+  },
+  {
+    "seed": 9,
+    "condition": {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1478951225932043
+  },
+  {
+    "seed": 9,
+    "condition": {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14682328615870677
+  },
+  {
+    "seed": 9,
+    "condition": {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.1469616176342074
+  },
+  {
+    "seed": 9,
+    "condition": {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.14783195498293727
+  },
+  {
+    "seed": 9,
+    "condition": {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    "fallen": false,
+    "alive_s": 20.0,
+    "rmse": 0.15005820360126756
+  }
+]

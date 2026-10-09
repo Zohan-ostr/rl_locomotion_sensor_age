@@ -1,0 +1,35 @@
+{
+  "episode_audits": [
+    {
+      "folder": "results/pilot_h1/validation/B0",
+      "decisions": 1000,
+      "causality_and_payload_checks": "passed"
+    },
+    {
+      "folder": "results/pilot_h1/validation/B1",
+      "decisions": 1000,
+      "causality_and_payload_checks": "passed"
+    },
+    {
+      "folder": "results/pilot_h1/validation/M",
+      "decisions": 1000,
+      "causality_and_payload_checks": "passed"
+    }
+  ],
+  "zero_age_integration": {
+    "B1": "bitwise identical observations, actions and physical sensor samples to B0",
+    "M": "bitwise identical observations, actions and physical sensor samples to B0"
+  },
+  "stage_one_baseline_max_errors": {
+    "time_s": 2.0108359422010835e-12,
+    "x_m": 0.0,
+    "y_m": 0.0,
+    "height_m": 0.0,
+    "roll_rad": 0.0,
+    "pitch_rad": 0.0,
+    "yaw_rad": 0.0,
+    "vx_world_m_s": 0.0,
+    "vy_world_m_s": 0.0,
+    "vz_world_m_s": 0.0
+  }
+}

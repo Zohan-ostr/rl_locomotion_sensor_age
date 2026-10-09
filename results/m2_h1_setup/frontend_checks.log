@@ -1,0 +1,7 @@
+{
+  "cli_default_profile_and_trace": "passed",
+  "interactive_C_W_R_and_reset": "passed",
+  "gui_headless_bitwise_equivalence": "passed",
+  "window_simulation_seconds": 16.00000000000201,
+  "window_wall_seconds": 16.299829572000817
+}

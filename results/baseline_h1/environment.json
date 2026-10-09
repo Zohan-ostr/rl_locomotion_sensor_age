@@ -1,0 +1,31 @@
+{
+  "python_executable": "/home/zohan/projects/rl_locomotion_sensor_age/.venv/bin/python",
+  "python_version": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+  "virtualenv_prefix": "/home/zohan/projects/rl_locomotion_sensor_age/.venv",
+  "base_prefix": "/usr",
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "logical_cpus": 20,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "isolated_mode": 1
+}

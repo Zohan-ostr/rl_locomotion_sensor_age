@@ -1,0 +1,52 @@
+[
+  {
+    "time_s": 4.94,
+    "stream": "imu",
+    "blocked": true
+  },
+  {
+    "time_s": 5.2,
+    "stream": "imu",
+    "blocked": false
+  },
+  {
+    "time_s": 7.0,
+    "stream": "joints",
+    "blocked": true
+  },
+  {
+    "time_s": 7.44,
+    "stream": "joints",
+    "blocked": false
+  },
+  {
+    "time_s": 13.540000000000001,
+    "stream": "imu",
+    "blocked": true
+  },
+  {
+    "time_s": 13.68,
+    "stream": "imu",
+    "blocked": false
+  },
+  {
+    "time_s": 14.14,
+    "stream": "imu",
+    "blocked": true
+  },
+  {
+    "time_s": 14.66,
+    "stream": "imu",
+    "blocked": false
+  },
+  {
+    "time_s": 16.28,
+    "stream": "joints",
+    "blocked": true
+  },
+  {
+    "time_s": 19.52,
+    "stream": "joints",
+    "blocked": false
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "status": "exploratory_pilot_only",
+  "hypothesis_supported": null,
+  "closed_test_executed": false,
+  "raw_episode_count": 548,
+  "selected_episode_count": 428,
+  "validation_episode_count": 3,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "horizon_selection": {
+    "status": "pilot_recommendation_not_test_result",
+    "test_seeds_used": false,
+    "candidates": {
+      "joints": [
+        {
+          "horizon_ms": 20,
+          "n": 30,
+          "falls": 9,
+          "mean_alive_s": 17.112266666666663,
+          "mean_velocity_rmse_m_s": 0.32862626452906935,
+          "walking_successes": 20
+        },
+        {
+          "horizon_ms": 40,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 15.468533333333335,
+          "mean_velocity_rmse_m_s": 0.39748518330067256,
+          "walking_successes": 10
+        },
+        {
+          "horizon_ms": 80,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 14.904133333333336,
+          "mean_velocity_rmse_m_s": 0.37314239228333584,
+          "walking_successes": 10
+        }
+      ],
+      "imu": [
+        {
+          "horizon_ms": 20,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 15.402333333333333,
+          "mean_velocity_rmse_m_s": 0.32643182590544917,
+          "walking_successes": 20
+        },
+        {
+          "horizon_ms": 40,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 14.65066666666667,
+          "mean_velocity_rmse_m_s": 0.38306935960108895,
+          "walking_successes": 20
+        },
+        {
+          "horizon_ms": 80,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 14.546600000000002,
+          "mean_velocity_rmse_m_s": 0.2599478719700621,
+          "walking_successes": 20
+        }
+      ]
+    },
+    "selected": {
+      "joints_ms": 20,
+      "imu_ms": 20
+    },
+    "ranking": [
+      "fewest_falls",
+      "longest_mean_alive_time",
+      "lowest_mean_velocity_rmse",
+      "smallest_horizon"
+    ]
+  },
+  "primary_E2": {
+    "B1": {
+      "n": 60,
+      "falls": 18,
+      "walking_successes": 40,
+      "mean_alive_s": 16.150766666666666
+    },
+    "M": {
+      "n": 60,
+      "falls": 19,
+      "walking_successes": 40,
+      "mean_alive_s": 16.2573
+    }
+  },
+  "paired_E2_fall_rate_difference_B1_minus_M": -0.016666666666666666,
+  "paired_seed_cluster_bootstrap95_exploratory": [
+    -0.06666666666666667,
+    0.03333333333333334
+  ],
+  "bootstrap_resamples": 5000,
+  "bootstrap_rng_seed": 20261008,
+  "inference_limitation": "Same seed 0\u20139 used for horizon selection. Intervals describe pilot and cannot confirm hypothesis.",
+  "pairing_and_warmup_checks": {
+    "paired_condition_seed_groups": 200,
+    "model_weights_control_config_and_joint_order_identical_to_stage_one": true,
+    "warmup_identical_for_every_method_and_condition": true,
+    "E0_observations_actions_states_bitwise_identical_all_10_seeds": true
+  },
+  "total_episode_wall_s_including_setup_and_output": 704.1986122690032,
+  "recorded_failures": [],
+  "excluded_episodes": [],
+  "body_contact_episodes": 106
+}

@@ -1,0 +1,73 @@
+{"candidate": "h40_w3", "seed_done": 0, "completed": 6, "elapsed_s": 6.78, "falls_so_far": 3}
+{"candidate": "h40_w3", "seed_done": 1, "completed": 12, "elapsed_s": 14.01, "falls_so_far": 5}
+{"candidate": "h40_w3", "seed_done": 2, "completed": 18, "elapsed_s": 20.87, "falls_so_far": 8}
+{"candidate": "h40_w3", "seed_done": 3, "completed": 24, "elapsed_s": 28.14, "falls_so_far": 10}
+{"candidate": "h40_w3", "seed_done": 4, "completed": 30, "elapsed_s": 34.61, "falls_so_far": 13}
+{"candidate": "h40_w3", "seed_done": 5, "completed": 36, "elapsed_s": 42.09, "falls_so_far": 15}
+{"candidate": "h40_w3", "seed_done": 6, "completed": 42, "elapsed_s": 49.5, "falls_so_far": 17}
+{"candidate": "h40_w3", "seed_done": 7, "completed": 48, "elapsed_s": 57.11, "falls_so_far": 19}
+{"candidate": "h40_w3", "seed_done": 8, "completed": 54, "elapsed_s": 64.36, "falls_so_far": 22}
+{"candidate": "h40_w3", "seed_done": 9, "completed": 60, "elapsed_s": 71.59, "falls_so_far": 25}
+{"candidate": "h80_w3", "seed_done": 0, "completed": 66, "elapsed_s": 78.63, "falls_so_far": 3}
+{"candidate": "h80_w3", "seed_done": 1, "completed": 72, "elapsed_s": 85.94, "falls_so_far": 5}
+{"candidate": "h80_w3", "seed_done": 2, "completed": 78, "elapsed_s": 92.86, "falls_so_far": 8}
+{"candidate": "h80_w3", "seed_done": 3, "completed": 84, "elapsed_s": 100.35, "falls_so_far": 10}
+{"candidate": "h80_w3", "seed_done": 4, "completed": 90, "elapsed_s": 106.66, "falls_so_far": 13}
+{"candidate": "h80_w3", "seed_done": 5, "completed": 96, "elapsed_s": 113.91, "falls_so_far": 15}
+{"candidate": "h80_w3", "seed_done": 6, "completed": 102, "elapsed_s": 121.02, "falls_so_far": 17}
+{"candidate": "h80_w3", "seed_done": 7, "completed": 108, "elapsed_s": 128.33, "falls_so_far": 19}
+{"candidate": "h80_w3", "seed_done": 8, "completed": 114, "elapsed_s": 135.34, "falls_so_far": 22}
+{"candidate": "h80_w3", "seed_done": 9, "completed": 120, "elapsed_s": 142.33, "falls_so_far": 25}
+{"candidate": "h80_w5", "seed_done": 0, "completed": 126, "elapsed_s": 149.35, "falls_so_far": 3}
+{"candidate": "h80_w5", "seed_done": 1, "completed": 132, "elapsed_s": 155.66, "falls_so_far": 6}
+{"candidate": "h80_w5", "seed_done": 2, "completed": 138, "elapsed_s": 161.93, "falls_so_far": 9}
+{"candidate": "h80_w5", "seed_done": 3, "completed": 144, "elapsed_s": 168.17, "falls_so_far": 12}
+{"candidate": "h80_w5", "seed_done": 4, "completed": 150, "elapsed_s": 174.63, "falls_so_far": 15}
+{"candidate": "h80_w5", "seed_done": 5, "completed": 156, "elapsed_s": 181.12, "falls_so_far": 18}
+{"candidate": "h80_w5", "seed_done": 6, "completed": 162, "elapsed_s": 187.82, "falls_so_far": 21}
+{"candidate": "h80_w5", "seed_done": 7, "completed": 168, "elapsed_s": 194.52, "falls_so_far": 24}
+{"candidate": "h80_w5", "seed_done": 8, "completed": 174, "elapsed_s": 200.77, "falls_so_far": 27}
+{"candidate": "h80_w5", "seed_done": 9, "completed": 180, "elapsed_s": 208.17, "falls_so_far": 29}
+{"candidate": "h120_w5", "seed_done": 0, "completed": 186, "elapsed_s": 215.43, "falls_so_far": 3}
+{"candidate": "h120_w5", "seed_done": 1, "completed": 192, "elapsed_s": 221.67, "falls_so_far": 6}
+{"candidate": "h120_w5", "seed_done": 2, "completed": 198, "elapsed_s": 227.94, "falls_so_far": 9}
+{"candidate": "h120_w5", "seed_done": 3, "completed": 204, "elapsed_s": 234.43, "falls_so_far": 12}
+{"candidate": "h120_w5", "seed_done": 4, "completed": 210, "elapsed_s": 240.89, "falls_so_far": 15}
+{"candidate": "h120_w5", "seed_done": 5, "completed": 216, "elapsed_s": 247.16, "falls_so_far": 18}
+{"candidate": "h120_w5", "seed_done": 6, "completed": 222, "elapsed_s": 253.75, "falls_so_far": 21}
+{"candidate": "h120_w5", "seed_done": 7, "completed": 228, "elapsed_s": 260.54, "falls_so_far": 24}
+{"candidate": "h120_w5", "seed_done": 8, "completed": 234, "elapsed_s": 266.93, "falls_so_far": 27}
+{"candidate": "h120_w5", "seed_done": 9, "completed": 240, "elapsed_s": 274.45, "falls_so_far": 29}
+{
+  "candidates": {
+    "h40_w3": {
+      "n": 60,
+      "falls": 25,
+      "mean_alive_s": 14.621933333333333,
+      "velocity_rmse": 0.5031546918163339,
+      "walking_successes": 20
+    },
+    "h80_w3": {
+      "n": 60,
+      "falls": 25,
+      "mean_alive_s": 14.071266666666666,
+      "velocity_rmse": 0.5086342578036818,
+      "walking_successes": 20
+    },
+    "h80_w5": {
+      "n": 60,
+      "falls": 29,
+      "mean_alive_s": 12.791599999999999,
+      "velocity_rmse": 0.5488353367650339,
+      "walking_successes": 20
+    },
+    "h120_w5": {
+      "n": 60,
+      "falls": 29,
+      "mean_alive_s": 12.791599999999999,
+      "velocity_rmse": 0.5488353367650339,
+      "walking_successes": 20
+    }
+  },
+  "selected": "h40_w3"
+}

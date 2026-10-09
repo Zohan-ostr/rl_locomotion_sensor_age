@@ -1,0 +1,1365 @@
+{
+  "status": "exploratory_pilot_only",
+  "hypothesis_supported": null,
+  "closed_test_executed": false,
+  "raw_episode_count": 548,
+  "selected_episode_count": 428,
+  "validation_episode_count": 3,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "horizon_selection": {
+    "status": "pilot_recommendation_not_test_result",
+    "test_seeds_used": false,
+    "candidates": {
+      "joints": [
+        {
+          "horizon_ms": 20,
+          "n": 30,
+          "falls": 9,
+          "mean_alive_s": 17.112266666666663,
+          "mean_velocity_rmse_m_s": 0.32862626452906935,
+          "walking_successes": 20
+        },
+        {
+          "horizon_ms": 40,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 15.468533333333335,
+          "mean_velocity_rmse_m_s": 0.39748518330067256,
+          "walking_successes": 10
+        },
+        {
+          "horizon_ms": 80,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 14.904133333333336,
+          "mean_velocity_rmse_m_s": 0.37314239228333584,
+          "walking_successes": 10
+        }
+      ],
+      "imu": [
+        {
+          "horizon_ms": 20,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 15.402333333333333,
+          "mean_velocity_rmse_m_s": 0.32643182590544917,
+          "walking_successes": 20
+        },
+        {
+          "horizon_ms": 40,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 14.65066666666667,
+          "mean_velocity_rmse_m_s": 0.38306935960108895,
+          "walking_successes": 20
+        },
+        {
+          "horizon_ms": 80,
+          "n": 30,
+          "falls": 10,
+          "mean_alive_s": 14.546600000000002,
+          "mean_velocity_rmse_m_s": 0.2599478719700621,
+          "walking_successes": 20
+        }
+      ]
+    },
+    "selected": {
+      "joints_ms": 20,
+      "imu_ms": 20
+    },
+    "ranking": [
+      "fewest_falls",
+      "longest_mean_alive_time",
+      "lowest_mean_velocity_rmse",
+      "smallest_horizon"
+    ]
+  },
+  "groups": [
+    {
+      "condition": "I20",
+      "method": "AI",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.14560174446656984,
+      "mean_forward_speed_m_s": 0.43190136122688827,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.0014088823523614217,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 20.0
+    },
+    {
+      "condition": "I20",
+      "method": "AJ",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.1581922399789055,
+      "mean_forward_speed_m_s": 0.41985762786583114,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.005070801107058777,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 20.0
+    },
+    {
+      "condition": "I20",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.1581524493662434,
+      "mean_forward_speed_m_s": 0.41990531407151277,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.005071212173643318,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 20.0
+    },
+    {
+      "condition": "I20",
+      "method": "B2",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.18493920721896995,
+      "mean_forward_speed_m_s": 0.38927834832786506,
+      "mean_joint_position_rmse_rad": 0.023127843452382446,
+      "mean_gravity_error_rad": 0.001576105546031657,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 20.0
+    },
+    {
+      "condition": "I20",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14557235488794065,
+      "mean_forward_speed_m_s": 0.4319284538590926,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.0014087994124947754,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 20.0
+    },
+    {
+      "condition": "I40",
+      "method": "AI",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.15871911479202733,
+      "mean_forward_speed_m_s": 0.4310233778921893,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.008873009684885792,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 40.0
+    },
+    {
+      "condition": "I40",
+      "method": "AJ",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.17455517954914987,
+      "mean_forward_speed_m_s": 0.4154767608011459,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.014574772740413595,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 40.0
+    },
+    {
+      "condition": "I40",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.17454686494432708,
+      "mean_forward_speed_m_s": 0.41551424948131543,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.014577782555910352,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 40.0
+    },
+    {
+      "condition": "I40",
+      "method": "B2",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.1963295130001865,
+      "mean_forward_speed_m_s": 0.39698800842303955,
+      "mean_joint_position_rmse_rad": 0.025136895157374897,
+      "mean_gravity_error_rad": 0.01115051566705849,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 40.0
+    },
+    {
+      "condition": "I40",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.15841383608659823,
+      "mean_forward_speed_m_s": 0.4313017406826817,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.0088795728580674,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 40.0
+    },
+    {
+      "condition": "I80",
+      "method": "AI",
+      "n": 1,
+      "falls": 1,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.20654931437723745,
+        1.0
+      ],
+      "mean_alive_s": 5.852,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.8006312699146882,
+      "mean_forward_speed_m_s": 0.7130366260736476,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.13085026123440724,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 80.0
+    },
+    {
+      "condition": "I80",
+      "method": "AJ",
+      "n": 1,
+      "falls": 1,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.20654931437723745,
+        1.0
+      ],
+      "mean_alive_s": 7.734,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.8094139206214838,
+      "mean_forward_speed_m_s": 0.669770957190345,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.12947936664741208,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 80.0
+    },
+    {
+      "condition": "I80",
+      "method": "B1",
+      "n": 10,
+      "falls": 10,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "mean_alive_s": 6.2488,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.6722134874164929,
+      "mean_forward_speed_m_s": 0.4073891707162848,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.11240050762596206,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 80.0
+    },
+    {
+      "condition": "I80",
+      "method": "B2",
+      "n": 1,
+      "falls": 1,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.20654931437723745,
+        1.0
+      ],
+      "mean_alive_s": 3.896,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.911989402745026,
+      "mean_forward_speed_m_s": 0.6101665060196163,
+      "mean_joint_position_rmse_rad": 0.07850719272981076,
+      "mean_gravity_error_rad": 0.11223226914005231,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 80.0
+    },
+    {
+      "condition": "I80",
+      "method": "M",
+      "n": 10,
+      "falls": 10,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "mean_alive_s": 6.206999999999999,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.6753092867418087,
+      "mean_forward_speed_m_s": 0.46220447148958776,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.10432263145627055,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 80.0
+    },
+    {
+      "condition": "J20",
+      "method": "AI",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.14741303318855237,
+      "mean_forward_speed_m_s": 0.4370534108676265,
+      "mean_joint_position_rmse_rad": 0.02117389373286781,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 20.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J20",
+      "method": "AJ",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.17050012785114416,
+      "mean_forward_speed_m_s": 0.40261697146741576,
+      "mean_joint_position_rmse_rad": 0.009511405301315995,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 20.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J20",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.1473460842768707,
+      "mean_forward_speed_m_s": 0.4370807466229295,
+      "mean_joint_position_rmse_rad": 0.021179548724463513,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 20.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J20",
+      "method": "B2",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.1676663084247264,
+      "mean_forward_speed_m_s": 0.40461942303743376,
+      "mean_joint_position_rmse_rad": 0.008810906235784084,
+      "mean_gravity_error_rad": 0.0034290266311392367,
+      "max_age_joints_ms": 20.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J20",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.1705934141463273,
+      "mean_forward_speed_m_s": 0.40256930130229457,
+      "mean_joint_position_rmse_rad": 0.009522358283371484,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 20.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J40",
+      "method": "AI",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.15104636833528023,
+      "mean_forward_speed_m_s": 0.4429013292125202,
+      "mean_joint_position_rmse_rad": 0.042563149884934405,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J40",
+      "method": "AJ",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.18276396968742603,
+      "mean_forward_speed_m_s": 0.40416716975519934,
+      "mean_joint_position_rmse_rad": 0.027170759542823195,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J40",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.15190786269049156,
+      "mean_forward_speed_m_s": 0.44221924948157215,
+      "mean_joint_position_rmse_rad": 0.04265300329151141,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J40",
+      "method": "B2",
+      "n": 1,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 1,
+      "mean_velocity_rmse_m_s": 0.18425653310820997,
+      "mean_forward_speed_m_s": 0.40373532045288796,
+      "mean_joint_position_rmse_rad": 0.027405110380373018,
+      "mean_gravity_error_rad": 0.003206565994642719,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J40",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.1830026737883454,
+      "mean_forward_speed_m_s": 0.40396414912282486,
+      "mean_joint_position_rmse_rad": 0.027183521357715373,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J80",
+      "method": "AI",
+      "n": 1,
+      "falls": 1,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.20654931437723745,
+        1.0
+      ],
+      "mean_alive_s": 7.55,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.9277271949199934,
+      "mean_forward_speed_m_s": 0.8063329733837912,
+      "mean_joint_position_rmse_rad": 0.22195461177268705,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 80.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J80",
+      "method": "AJ",
+      "n": 1,
+      "falls": 1,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.20654931437723745,
+        1.0
+      ],
+      "mean_alive_s": 11.218,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.7746103153782414,
+      "mean_forward_speed_m_s": 0.16829680831421737,
+      "mean_joint_position_rmse_rad": 0.1568499906533762,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 80.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J80",
+      "method": "B1",
+      "n": 10,
+      "falls": 8,
+      "fall_rate": 0.8,
+      "wilson95": [
+        0.49016247153664183,
+        0.9433178485456247
+      ],
+      "mean_alive_s": 10.655800000000001,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.7238596958474977,
+      "mean_forward_speed_m_s": 0.5436030610724043,
+      "mean_joint_position_rmse_rad": 0.17369854141105975,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 80.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J80",
+      "method": "B2",
+      "n": 1,
+      "falls": 1,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.20654931437723745,
+        1.0
+      ],
+      "mean_alive_s": 9.25,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.5793516096335095,
+      "mean_forward_speed_m_s": 0.4340940260303024,
+      "mean_joint_position_rmse_rad": 0.16497450963019564,
+      "mean_gravity_error_rad": 0.017798508227289917,
+      "max_age_joints_ms": 80.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "J80",
+      "method": "M",
+      "n": 10,
+      "falls": 9,
+      "fall_rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ],
+      "mean_alive_s": 11.3368,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.6322827056525355,
+      "mean_forward_speed_m_s": 0.5145315971508203,
+      "mean_joint_position_rmse_rad": 0.13923339807879204,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 80.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "clean",
+      "method": "B0",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14692919756646283,
+      "mean_forward_speed_m_s": 0.4306956768595945,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "clean",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14692919756646283,
+      "mean_forward_speed_m_s": 0.4306956768595945,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "clean",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14692919756646283,
+      "mean_forward_speed_m_s": 0.4306956768595945,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "drop_imu_1",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.1469975899204888,
+      "mean_forward_speed_m_s": 0.43061486211926175,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 3.6924358866184174e-06,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 20.0
+    },
+    {
+      "condition": "drop_imu_1",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14697048130505816,
+      "mean_forward_speed_m_s": 0.4306497550512357,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 9.369466620742733e-07,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 20.0
+    },
+    {
+      "condition": "drop_imu_2",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14704122072639358,
+      "mean_forward_speed_m_s": 0.4305876993220242,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 1.095667490410847e-05,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 40.0
+    },
+    {
+      "condition": "drop_imu_2",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14703241612290807,
+      "mean_forward_speed_m_s": 0.4305977030277156,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 5.285738112383792e-06,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 40.0
+    },
+    {
+      "condition": "drop_imu_4",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.1474366459635943,
+      "mean_forward_speed_m_s": 0.4303054812540107,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 3.800393008898898e-05,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 80.0
+    },
+    {
+      "condition": "drop_imu_4",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14736255577544716,
+      "mean_forward_speed_m_s": 0.43037756512079745,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 2.9516180595151843e-05,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 80.0
+    },
+    {
+      "condition": "drop_imu_6",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.1484748493358226,
+      "mean_forward_speed_m_s": 0.42964515902103945,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 9.173706436633605e-05,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 120.0
+    },
+    {
+      "condition": "drop_imu_6",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.148504933148443,
+      "mean_forward_speed_m_s": 0.4296322070090176,
+      "mean_joint_position_rmse_rad": 0.0,
+      "mean_gravity_error_rad": 8.337174818550563e-05,
+      "max_age_joints_ms": 0.0,
+      "max_age_imu_ms": 120.0
+    },
+    {
+      "condition": "drop_joints_1",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14697948155390247,
+      "mean_forward_speed_m_s": 0.43061381561102874,
+      "mean_joint_position_rmse_rad": 0.000597477836615741,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 20.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "drop_joints_1",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14700175128755186,
+      "mean_forward_speed_m_s": 0.43059112742933137,
+      "mean_joint_position_rmse_rad": 0.0001829545376721298,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 20.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "drop_joints_2",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.1468609758475655,
+      "mean_forward_speed_m_s": 0.4307626561462154,
+      "mean_joint_position_rmse_rad": 0.001223818952578759,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "drop_joints_2",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14698639386534165,
+      "mean_forward_speed_m_s": 0.4306102123452261,
+      "mean_joint_position_rmse_rad": 0.0007002834178763031,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "drop_joints_4",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.1468613132104057,
+      "mean_forward_speed_m_s": 0.4310572934256367,
+      "mean_joint_position_rmse_rad": 0.0027570740115662675,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 80.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "drop_joints_4",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14688419968684302,
+      "mean_forward_speed_m_s": 0.4308062754875245,
+      "mean_joint_position_rmse_rad": 0.002127807791539202,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 80.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "drop_joints_6",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.1473076967636747,
+      "mean_forward_speed_m_s": 0.43172147353959806,
+      "mean_joint_position_rmse_rad": 0.004487641132308058,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 120.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "drop_joints_6",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14686166688054564,
+      "mean_forward_speed_m_s": 0.43159351457668543,
+      "mean_joint_position_rmse_rad": 0.0038619797957719936,
+      "mean_gravity_error_rad": 0.0,
+      "max_age_joints_ms": 120.0,
+      "max_age_imu_ms": 0.0
+    },
+    {
+      "condition": "equal120",
+      "method": "B1",
+      "n": 10,
+      "falls": 10,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "mean_alive_s": 4.2714,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.6392367216717935,
+      "mean_forward_speed_m_s": 0.5661852125396156,
+      "mean_joint_position_rmse_rad": 0.3550537685710405,
+      "mean_gravity_error_rad": 0.25091831588765184,
+      "max_age_joints_ms": 120.0,
+      "max_age_imu_ms": 120.0
+    },
+    {
+      "condition": "equal120",
+      "method": "M",
+      "n": 10,
+      "falls": 10,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "mean_alive_s": 3.8302000000000005,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.7734676770383763,
+      "mean_forward_speed_m_s": 0.18780242336268355,
+      "mean_joint_position_rmse_rad": 0.3322747463368133,
+      "mean_gravity_error_rad": 0.2113656580963934,
+      "max_age_joints_ms": 120.0,
+      "max_age_imu_ms": 120.0
+    },
+    {
+      "condition": "equal20",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.147549261956679,
+      "mean_forward_speed_m_s": 0.43715177885291234,
+      "mean_joint_position_rmse_rad": 0.021358645179808063,
+      "mean_gravity_error_rad": 0.004478183569801371,
+      "max_age_joints_ms": 20.0,
+      "max_age_imu_ms": 20.0
+    },
+    {
+      "condition": "equal20",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.17099581347310416,
+      "mean_forward_speed_m_s": 0.40012233083013193,
+      "mean_joint_position_rmse_rad": 0.009486000188934836,
+      "mean_gravity_error_rad": 0.0013082972251882547,
+      "max_age_joints_ms": 20.0,
+      "max_age_imu_ms": 20.0
+    },
+    {
+      "condition": "equal40",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.13473099290845122,
+      "mean_forward_speed_m_s": 0.5204404743114212,
+      "mean_joint_position_rmse_rad": 0.050239080984070185,
+      "mean_gravity_error_rad": 0.021734649189338553,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 40.0
+    },
+    {
+      "condition": "equal40",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.19682813452918055,
+      "mean_forward_speed_m_s": 0.42043208782528885,
+      "mean_joint_position_rmse_rad": 0.0313713668396565,
+      "mean_gravity_error_rad": 0.011130848387739286,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 40.0
+    },
+    {
+      "condition": "equal80",
+      "method": "B1",
+      "n": 10,
+      "falls": 10,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "mean_alive_s": 4.3734,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.7338871797124169,
+      "mean_forward_speed_m_s": 0.45679115524860636,
+      "mean_joint_position_rmse_rad": 0.2519749733733443,
+      "mean_gravity_error_rad": 0.16083562181243524,
+      "max_age_joints_ms": 80.0,
+      "max_age_imu_ms": 80.0
+    },
+    {
+      "condition": "equal80",
+      "method": "M",
+      "n": 10,
+      "falls": 10,
+      "fall_rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "mean_alive_s": 4.6362000000000005,
+      "walking_successes": 0,
+      "mean_velocity_rmse_m_s": 0.8998413293253563,
+      "mean_forward_speed_m_s": 0.32916561512396963,
+      "mean_joint_position_rmse_rad": 0.23394918320326216,
+      "mean_gravity_error_rad": 0.12903519902691235,
+      "max_age_joints_ms": 80.0,
+      "max_age_imu_ms": 80.0
+    },
+    {
+      "condition": "jitter",
+      "method": "B1",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.14468719319670137,
+      "mean_forward_speed_m_s": 0.44256067700433643,
+      "mean_joint_position_rmse_rad": 0.024175675356604684,
+      "mean_gravity_error_rad": 0.0038740208288483556,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 40.0
+    },
+    {
+      "condition": "jitter",
+      "method": "M",
+      "n": 10,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "mean_alive_s": 20.0,
+      "walking_successes": 10,
+      "mean_velocity_rmse_m_s": 0.16140468875563743,
+      "mean_forward_speed_m_s": 0.41673109872699154,
+      "mean_joint_position_rmse_rad": 0.014112885300181191,
+      "mean_gravity_error_rad": 0.0017684142298332885,
+      "max_age_joints_ms": 40.0,
+      "max_age_imu_ms": 40.0
+    }
+  ],
+  "primary_E2": {
+    "B1": {
+      "n": 60,
+      "falls": 18,
+      "walking_successes": 40,
+      "mean_alive_s": 16.150766666666666
+    },
+    "M": {
+      "n": 60,
+      "falls": 19,
+      "walking_successes": 40,
+      "mean_alive_s": 16.2573
+    }
+  },
+  "paired_E2_fall_rate_difference_B1_minus_M": -0.016666666666666666,
+  "paired_seed_cluster_bootstrap95_exploratory": [
+    -0.06666666666666667,
+    0.03333333333333334
+  ],
+  "bootstrap_resamples": 5000,
+  "bootstrap_rng_seed": 20261008,
+  "inference_limitation": "Same seed 0\u20139 used for horizon selection. Intervals describe pilot and cannot confirm hypothesis.",
+  "pairing_and_warmup_checks": {
+    "paired_condition_seed_groups": 200,
+    "model_weights_control_config_and_joint_order_identical_to_stage_one": true,
+    "warmup_identical_for_every_method_and_condition": true,
+    "E0_observations_actions_states_bitwise_identical_all_10_seeds": true
+  },
+  "timing": {
+    "B0": {
+      "episodes": 10,
+      "decision_count": 10000,
+      "median_simulation_to_wall_ratio": 15.209112875088291,
+      "median_episode_wall_s_including_setup_and_output": 1.4778872995000256,
+      "measurements_ms": {
+        "adapter_ms": {
+          "median": 0.0004850003278988879,
+          "p95": 0.0005910001164011192
+        },
+        "inference_ms": {
+          "median": 0.13561050013777276,
+          "p95": 0.1572510500182034
+        },
+        "control_cycle_ms": {
+          "median": 1.300922499922308,
+          "p95": 1.4756176999981105
+        }
+      }
+    },
+    "B1": {
+      "episodes": 200,
+      "decision_count": 172757,
+      "median_simulation_to_wall_ratio": 14.872018493099194,
+      "median_episode_wall_s_including_setup_and_output": 1.48881263699991,
+      "measurements_ms": {
+        "adapter_ms": {
+          "median": 0.0039960000322025735,
+          "p95": 0.0044839998736279085
+        },
+        "inference_ms": {
+          "median": 0.1368759999422764,
+          "p95": 0.16058919973147565
+        },
+        "control_cycle_ms": {
+          "median": 1.33139299987306,
+          "p95": 1.4928980000149747
+        }
+      }
+    },
+    "M": {
+      "episodes": 200,
+      "decision_count": 172987,
+      "median_simulation_to_wall_ratio": 14.713748198935301,
+      "median_episode_wall_s_including_setup_and_output": 1.4991333250000025,
+      "measurements_ms": {
+        "adapter_ms": {
+          "median": 0.004291999630368082,
+          "p95": 0.054628699808745275
+        },
+        "inference_ms": {
+          "median": 0.13737100016442128,
+          "p95": 0.1606477000223094
+        },
+        "control_cycle_ms": {
+          "median": 1.3434850002340681,
+          "p95": 1.5061747000345345
+        }
+      }
+    },
+    "B2": {
+      "episodes": 6,
+      "decision_count": 4656,
+      "median_simulation_to_wall_ratio": 13.824322790799586,
+      "median_episode_wall_s_including_setup_and_output": 1.5429347374999907,
+      "measurements_ms": {
+        "adapter_ms": {
+          "median": 0.055411999937859946,
+          "p95": 0.06115399992268067
+        },
+        "inference_ms": {
+          "median": 0.14074700015953567,
+          "p95": 0.15685500011386466
+        },
+        "control_cycle_ms": {
+          "median": 1.4062709999507206,
+          "p95": 1.579830499849777
+        }
+      }
+    },
+    "AJ": {
+      "episodes": 6,
+      "decision_count": 4946,
+      "median_simulation_to_wall_ratio": 14.352903637488911,
+      "median_episode_wall_s_including_setup_and_output": 1.5219677980001052,
+      "measurements_ms": {
+        "adapter_ms": {
+          "median": 0.0050154997097706655,
+          "p95": 0.012123500027882983
+        },
+        "inference_ms": {
+          "median": 0.13938949996372685,
+          "p95": 0.1537400000870548
+        },
+        "control_cycle_ms": {
+          "median": 1.362512500008961,
+          "p95": 1.5197599997236466
+        }
+      }
+    },
+    "AI": {
+      "episodes": 6,
+      "decision_count": 4669,
+      "median_simulation_to_wall_ratio": 14.202425454359094,
+      "median_episode_wall_s_including_setup_and_output": 1.5187930704998962,
+      "measurements_ms": {
+        "adapter_ms": {
+          "median": 0.0049539999054104555,
+          "p95": 0.05339519993867725
+        },
+        "inference_ms": {
+          "median": 0.14046700016479008,
+          "p95": 0.15668880005250685
+        },
+        "control_cycle_ms": {
+          "median": 1.3849380002284306,
+          "p95": 1.5416426002047954
+        }
+      }
+    }
+  },
+  "total_episode_wall_s_including_setup_and_output": 704.1986122690032,
+  "recorded_failures": [],
+  "excluded_episodes": [],
+  "body_contact_episodes": 106
+}

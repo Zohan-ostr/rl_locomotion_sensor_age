@@ -1,0 +1,25 @@
+{
+  "working_directory": "/home/zohan/projects/rl_locomotion_sensor_age",
+  "runtime": ".venv/bin/python",
+  "cpu_threads": 1,
+  "episode_calls_recorded_before_execution": "runs.jsonl",
+  "dependency_snapshot": "requirements.lock.txt",
+  "stage_invocations": [
+    {"argv": [".venv/bin/python", "-I", "scripts/check_sensor_age.py"], "log": "logs/unit_legacy.log", "exit_code": 0},
+    {"argv": [".venv/bin/python", "-I", "scripts/run_m3_study.py", "--stage", "diagnostics"], "log": "logs/diagnostics.log", "exit_code": 0},
+    {"argv": [".venv/bin/python", "-I", "scripts/run_m3_study.py", "--stage", "collect"], "log": "logs/collect.log", "exit_code": 0},
+    {"argv": [".venv/bin/python", "-I", "scripts/train_m3.py"], "log": "logs/train_attempt_1.log", "exit_code": 130, "issue": "models/preparation_issue.json"},
+    {"argv": [".venv/bin/python", "-I", "scripts/train_m3.py"], "log": "logs/train.log", "exit_code": 0},
+    {"argv": [".venv/bin/python", "-I", "scripts/check_m3.py"], "log": "logs/unit_m3.log", "exit_code": 0},
+    {"argv": [".venv/bin/python", "-I", "scripts/run_m3_study.py", "--stage", "tune"], "log": "logs/tune.log", "exit_code": 0},
+    {"shell": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -I scripts/run_m3_study.py --stage freeze > results/m3_h1/logs/freeze.log 2>&1", "log": "logs/freeze.log", "exit_code": 0},
+    {"shell": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -I scripts/run_m3_study.py --stage test > results/m3_h1/logs/test.log 2>&1", "log": "logs/test.log", "exit_code": 0},
+    {"shell": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -I scripts/run_m3_study.py --stage extensions > results/m3_h1/logs/extensions.log 2>&1", "log": "logs/extensions.log", "exit_code": 0},
+    {"shell": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -I scripts/check_m3_reproduction.py > results/m3_h1/logs/reproduction.log 2>&1", "log": "logs/reproduction.log", "exit_code": 0},
+    {"shell": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -I scripts/verify_setup.py > results/m3_h1/logs/environment_final.log 2>&1", "log": "logs/environment_final.log", "exit_code": 0},
+    {"shell": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -I scripts/analyze_m3.py > results/m3_h1/logs/analysis.log 2>&1", "archived_log": "logs/analysis_attempt_1.log", "exit_code": 1, "issue": "Path conversion in analysis SHA check; controller/model unchanged"},
+    {"shell": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -I scripts/analyze_m3.py > results/m3_h1/logs/analysis.log 2>&1", "archived_log": "logs/analysis_attempt_2.log", "exit_code": 0},
+    {"shell": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -I scripts/analyze_m3.py > results/m3_h1/logs/analysis.log 2>&1", "log": "logs/analysis.log", "exit_code": 0, "purpose": "Final explanatory report update; unchanged controller and data"},
+    {"shell": ".venv/bin/python -I -m pip freeze > results/m3_h1/requirements.lock.txt", "exit_code": 0}
+  ]
+}

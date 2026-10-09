@@ -1,0 +1,73 @@
+{"candidate": "p2_g1.0", "seed_done": 0, "completed": 6, "elapsed_s": 8.41, "falls_so_far": 2}
+{"candidate": "p2_g1.0", "seed_done": 1, "completed": 12, "elapsed_s": 16.68, "falls_so_far": 4}
+{"candidate": "p2_g1.0", "seed_done": 2, "completed": 18, "elapsed_s": 25.18, "falls_so_far": 6}
+{"candidate": "p2_g1.0", "seed_done": 3, "completed": 24, "elapsed_s": 33.77, "falls_so_far": 8}
+{"candidate": "p2_g1.0", "seed_done": 4, "completed": 30, "elapsed_s": 42.57, "falls_so_far": 10}
+{"candidate": "p2_g1.0", "seed_done": 5, "completed": 36, "elapsed_s": 51.09, "falls_so_far": 12}
+{"candidate": "p2_g1.0", "seed_done": 6, "completed": 42, "elapsed_s": 59.77, "falls_so_far": 14}
+{"candidate": "p2_g1.0", "seed_done": 7, "completed": 48, "elapsed_s": 68.57, "falls_so_far": 16}
+{"candidate": "p2_g1.0", "seed_done": 8, "completed": 54, "elapsed_s": 77.34, "falls_so_far": 18}
+{"candidate": "p2_g1.0", "seed_done": 9, "completed": 60, "elapsed_s": 85.86, "falls_so_far": 20}
+{"candidate": "p3_g1.0", "seed_done": 0, "completed": 66, "elapsed_s": 94.75, "falls_so_far": 2}
+{"candidate": "p3_g1.0", "seed_done": 1, "completed": 72, "elapsed_s": 103.71, "falls_so_far": 4}
+{"candidate": "p3_g1.0", "seed_done": 2, "completed": 78, "elapsed_s": 112.84, "falls_so_far": 6}
+{"candidate": "p3_g1.0", "seed_done": 3, "completed": 84, "elapsed_s": 121.79, "falls_so_far": 8}
+{"candidate": "p3_g1.0", "seed_done": 4, "completed": 90, "elapsed_s": 130.72, "falls_so_far": 10}
+{"candidate": "p3_g1.0", "seed_done": 5, "completed": 96, "elapsed_s": 139.96, "falls_so_far": 12}
+{"candidate": "p3_g1.0", "seed_done": 6, "completed": 102, "elapsed_s": 149.1, "falls_so_far": 14}
+{"candidate": "p3_g1.0", "seed_done": 7, "completed": 108, "elapsed_s": 157.84, "falls_so_far": 16}
+{"candidate": "p3_g1.0", "seed_done": 8, "completed": 114, "elapsed_s": 166.8, "falls_so_far": 18}
+{"candidate": "p3_g1.0", "seed_done": 9, "completed": 120, "elapsed_s": 175.95, "falls_so_far": 20}
+{"candidate": "p4_g1.0", "seed_done": 0, "completed": 126, "elapsed_s": 184.74, "falls_so_far": 3}
+{"candidate": "p4_g1.0", "seed_done": 1, "completed": 132, "elapsed_s": 194.0, "falls_so_far": 6}
+{"candidate": "p4_g1.0", "seed_done": 2, "completed": 138, "elapsed_s": 203.42, "falls_so_far": 8}
+{"candidate": "p4_g1.0", "seed_done": 3, "completed": 144, "elapsed_s": 212.37, "falls_so_far": 11}
+{"candidate": "p4_g1.0", "seed_done": 4, "completed": 150, "elapsed_s": 221.82, "falls_so_far": 13}
+{"candidate": "p4_g1.0", "seed_done": 5, "completed": 156, "elapsed_s": 231.08, "falls_so_far": 15}
+{"candidate": "p4_g1.0", "seed_done": 6, "completed": 162, "elapsed_s": 240.48, "falls_so_far": 17}
+{"candidate": "p4_g1.0", "seed_done": 7, "completed": 168, "elapsed_s": 249.5, "falls_so_far": 19}
+{"candidate": "p4_g1.0", "seed_done": 8, "completed": 174, "elapsed_s": 258.11, "falls_so_far": 22}
+{"candidate": "p4_g1.0", "seed_done": 9, "completed": 180, "elapsed_s": 267.36, "falls_so_far": 24}
+{"candidate": "p3_g0.5", "seed_done": 0, "completed": 186, "elapsed_s": 276.91, "falls_so_far": 2}
+{"candidate": "p3_g0.5", "seed_done": 1, "completed": 192, "elapsed_s": 286.47, "falls_so_far": 4}
+{"candidate": "p3_g0.5", "seed_done": 2, "completed": 198, "elapsed_s": 295.44, "falls_so_far": 6}
+{"candidate": "p3_g0.5", "seed_done": 3, "completed": 204, "elapsed_s": 304.81, "falls_so_far": 8}
+{"candidate": "p3_g0.5", "seed_done": 4, "completed": 210, "elapsed_s": 313.73, "falls_so_far": 10}
+{"candidate": "p3_g0.5", "seed_done": 5, "completed": 216, "elapsed_s": 323.23, "falls_so_far": 12}
+{"candidate": "p3_g0.5", "seed_done": 6, "completed": 222, "elapsed_s": 333.19, "falls_so_far": 13}
+{"candidate": "p3_g0.5", "seed_done": 7, "completed": 228, "elapsed_s": 342.28, "falls_so_far": 15}
+{"candidate": "p3_g0.5", "seed_done": 8, "completed": 234, "elapsed_s": 351.34, "falls_so_far": 17}
+{"candidate": "p3_g0.5", "seed_done": 9, "completed": 240, "elapsed_s": 361.25, "falls_so_far": 18}
+{
+  "candidates": {
+    "p2_g1.0": {
+      "n": 60,
+      "falls": 20,
+      "mean_alive_s": 15.251366666666666,
+      "velocity_rmse": 0.36395611932534894,
+      "walking_successes": 40
+    },
+    "p3_g1.0": {
+      "n": 60,
+      "falls": 20,
+      "mean_alive_s": 15.496233333333333,
+      "velocity_rmse": 0.3571399743755242,
+      "walking_successes": 40
+    },
+    "p4_g1.0": {
+      "n": 60,
+      "falls": 24,
+      "mean_alive_s": 15.44223333333333,
+      "velocity_rmse": 0.42041455623906754,
+      "walking_successes": 30
+    },
+    "p3_g0.5": {
+      "n": 60,
+      "falls": 18,
+      "mean_alive_s": 16.1904,
+      "velocity_rmse": 0.2828037246999203,
+      "walking_successes": 40
+    }
+  },
+  "selected": "p3_g0.5"
+}

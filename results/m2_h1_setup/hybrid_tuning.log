@@ -1,0 +1,280 @@
+{"seed_done": 0, "falls_so_far": 2}
+{"seed_done": 1, "falls_so_far": 4}
+{"seed_done": 2, "falls_so_far": 6}
+{"seed_done": 3, "falls_so_far": 8}
+{"seed_done": 4, "falls_so_far": 10}
+{"seed_done": 5, "falls_so_far": 12}
+{"seed_done": 6, "falls_so_far": 13}
+{"seed_done": 7, "falls_so_far": 15}
+{"seed_done": 8, "falls_so_far": 17}
+{"seed_done": 9, "falls_so_far": 18}
+{
+  "plan": {
+    "selected_components": {
+      "joints": {
+        "name": "p3_g0.5",
+        "path": "results/m2_periodic_h1/episodes/p3_g0.5",
+        "legacy": false,
+        "falls": 8,
+        "mean_alive_s": 17.55046666666667,
+        "velocity_rmse": 0.288638943286636
+      },
+      "imu": {
+        "name": "legacy_M20",
+        "path": "results/pilot_h1/episodes",
+        "legacy": true,
+        "falls": 10,
+        "mean_alive_s": 15.402333333333333,
+        "velocity_rmse": 0.32643182590544917
+      }
+    },
+    "component_candidates": {
+      "joints": [
+        {
+          "name": "h40_w3",
+          "path": "results/m2_h1/episodes/h40_w3",
+          "legacy": false,
+          "falls": 11,
+          "mean_alive_s": 14.969733333333332,
+          "velocity_rmse": 0.49677477775037737
+        },
+        {
+          "name": "h80_w3",
+          "path": "results/m2_h1/episodes/h80_w3",
+          "legacy": false,
+          "falls": 11,
+          "mean_alive_s": 14.543866666666668,
+          "velocity_rmse": 0.4501285072260404
+        },
+        {
+          "name": "h80_w5",
+          "path": "results/m2_h1/episodes/h80_w5",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 14.5828,
+          "velocity_rmse": 0.4598754438590139
+        },
+        {
+          "name": "h120_w5",
+          "path": "results/m2_h1/episodes/h120_w5",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 14.5828,
+          "velocity_rmse": 0.4598754438590139
+        },
+        {
+          "name": "p2_g1.0",
+          "path": "results/m2_periodic_h1/episodes/p2_g1.0",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 15.658933333333332,
+          "velocity_rmse": 0.3773209289478249
+        },
+        {
+          "name": "p3_g1.0",
+          "path": "results/m2_periodic_h1/episodes/p3_g1.0",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 15.906733333333333,
+          "velocity_rmse": 0.32708478453605466
+        },
+        {
+          "name": "p4_g1.0",
+          "path": "results/m2_periodic_h1/episodes/p4_g1.0",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 16.225933333333334,
+          "velocity_rmse": 0.357361404399436
+        },
+        {
+          "name": "p3_g0.5",
+          "path": "results/m2_periodic_h1/episodes/p3_g0.5",
+          "legacy": false,
+          "falls": 8,
+          "mean_alive_s": 17.55046666666667,
+          "velocity_rmse": 0.288638943286636
+        },
+        {
+          "name": "cycle_g1",
+          "path": "results/m2_followup_h1/episodes/cycle_g1",
+          "legacy": false,
+          "falls": 16,
+          "mean_alive_s": 14.456133333333332,
+          "velocity_rmse": 0.4578602367053542
+        },
+        {
+          "name": "cycle_g05",
+          "path": "results/m2_followup_h1/episodes/cycle_g05",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 15.537066666666666,
+          "velocity_rmse": 0.3549177569198637
+        },
+        {
+          "name": "confidence_j025",
+          "path": "results/m2_followup_h1/episodes/confidence_j025",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 16.492933333333333,
+          "velocity_rmse": 0.32343373449559104
+        },
+        {
+          "name": "confidence_j0",
+          "path": "results/m2_followup_h1/episodes/confidence_j0",
+          "legacy": false,
+          "falls": 8,
+          "mean_alive_s": 16.885266666666666,
+          "velocity_rmse": 0.34103788093828663
+        },
+        {
+          "name": "legacy_M20",
+          "path": "results/pilot_h1/episodes",
+          "legacy": true,
+          "falls": 9,
+          "mean_alive_s": 17.112266666666663,
+          "velocity_rmse": 0.32862626452906935
+        }
+      ],
+      "imu": [
+        {
+          "name": "h40_w3",
+          "path": "results/m2_h1/episodes/h40_w3",
+          "legacy": false,
+          "falls": 14,
+          "mean_alive_s": 14.274133333333335,
+          "velocity_rmse": 0.5095346058822904
+        },
+        {
+          "name": "h80_w3",
+          "path": "results/m2_h1/episodes/h80_w3",
+          "legacy": false,
+          "falls": 14,
+          "mean_alive_s": 13.598666666666666,
+          "velocity_rmse": 0.5671400083813231
+        },
+        {
+          "name": "h80_w5",
+          "path": "results/m2_h1/episodes/h80_w5",
+          "legacy": false,
+          "falls": 19,
+          "mean_alive_s": 11.0004,
+          "velocity_rmse": 0.6377952296710542
+        },
+        {
+          "name": "h120_w5",
+          "path": "results/m2_h1/episodes/h120_w5",
+          "legacy": false,
+          "falls": 19,
+          "mean_alive_s": 11.0004,
+          "velocity_rmse": 0.6377952296710542
+        },
+        {
+          "name": "p2_g1.0",
+          "path": "results/m2_periodic_h1/episodes/p2_g1.0",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 14.8438,
+          "velocity_rmse": 0.35059130970287306
+        },
+        {
+          "name": "p3_g1.0",
+          "path": "results/m2_periodic_h1/episodes/p3_g1.0",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 15.085733333333334,
+          "velocity_rmse": 0.3871951642149936
+        },
+        {
+          "name": "p4_g1.0",
+          "path": "results/m2_periodic_h1/episodes/p4_g1.0",
+          "legacy": false,
+          "falls": 14,
+          "mean_alive_s": 14.658533333333333,
+          "velocity_rmse": 0.4834677080786991
+        },
+        {
+          "name": "p3_g0.5",
+          "path": "results/m2_periodic_h1/episodes/p3_g0.5",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 14.830333333333334,
+          "velocity_rmse": 0.2769685061132047
+        },
+        {
+          "name": "cycle_g1",
+          "path": "results/m2_followup_h1/episodes/cycle_g1",
+          "legacy": false,
+          "falls": 20,
+          "mean_alive_s": 11.393933333333331,
+          "velocity_rmse": 0.548531720873156
+        },
+        {
+          "name": "cycle_g05",
+          "path": "results/m2_followup_h1/episodes/cycle_g05",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 14.878266666666667,
+          "velocity_rmse": 0.2957292234534793
+        },
+        {
+          "name": "confidence_j025",
+          "path": "results/m2_followup_h1/episodes/confidence_j025",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 15.273666666666669,
+          "velocity_rmse": 0.3520976622850238
+        },
+        {
+          "name": "confidence_j0",
+          "path": "results/m2_followup_h1/episodes/confidence_j0",
+          "legacy": false,
+          "falls": 10,
+          "mean_alive_s": 15.273666666666669,
+          "velocity_rmse": 0.3520976622850238
+        },
+        {
+          "name": "legacy_M20",
+          "path": "results/pilot_h1/episodes",
+          "legacy": true,
+          "falls": 10,
+          "mean_alive_s": 15.402333333333333,
+          "velocity_rmse": 0.32643182590544917
+        }
+      ]
+    },
+    "adapter_config": {
+      "family": "hybrid",
+      "joints": {
+        "family": "periodic",
+        "config": {
+          "period": 0.8,
+          "history": 60,
+          "harmonics": 3,
+          "ridge": 0.001,
+          "gain": 0.5,
+          "joint_correction_limit": 0.35,
+          "velocity_correction_limit": 6.0,
+          "omega_correction_limit": 2.0
+        }
+      },
+      "imu": {
+        "family": "legacy",
+        "config": {}
+      }
+    },
+    "horizons_ms": [
+      120,
+      20
+    ],
+    "test_seeds_used": false,
+    "selection_rule": "per stream: falls then mean alive then velocity RMSE; original M may be retained",
+    "scope": "pilot E2 seeds 0\u20139; exact trace equivalence to component sources checked"
+  },
+  "result": {
+    "n": 60,
+    "falls": 18,
+    "mean_alive_s": 16.4764,
+    "velocity_rmse": 0.3075353845960425,
+    "walking_successes": 40
+  }
+}

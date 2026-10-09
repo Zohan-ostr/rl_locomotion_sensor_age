@@ -1,0 +1,3 @@
+I: IMU; J: суставы; W: идти/стоять; C: компенсация; R: поднять (свободный режим); Esc: выход.
+{"time_s": 0.0, "key": "w", "walking": false, "method": "B1", "reset_count": 0}
+Логи: /home/zohan/projects/rl_locomotion_sensor_age/results/sandbox_h1_checks/stand

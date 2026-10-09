@@ -1,0 +1,1202 @@
+[
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_0/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_0/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_0/J80",
+    "decisions": 444,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_0/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_0/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_0/I80",
+    "decisions": 207,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_1/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_1/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_1/J80",
+    "decisions": 286,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_1/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_1/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_1/I80",
+    "decisions": 236,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_2/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_2/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_2/J80",
+    "decisions": 385,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_2/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_2/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_2/I80",
+    "decisions": 207,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_3/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_3/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_3/J80",
+    "decisions": 303,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_3/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_3/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_3/I80",
+    "decisions": 238,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_4/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_4/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_4/J80",
+    "decisions": 477,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_4/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_4/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_4/I80",
+    "decisions": 213,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_5/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_5/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_5/J80",
+    "decisions": 285,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_5/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_5/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_5/I80",
+    "decisions": 234,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_6/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_6/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_6/J80",
+    "decisions": 327,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_6/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_6/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_6/I80",
+    "decisions": 206,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_7/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_7/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_7/J80",
+    "decisions": 345,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_7/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_7/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_7/I80",
+    "decisions": 284,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_8/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_8/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_8/J80",
+    "decisions": 357,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_8/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_8/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_8/I80",
+    "decisions": 212,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_9/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_9/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_9/J80",
+    "decisions": 274,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_9/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_9/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p2_g1.0/seed_9/I80",
+    "decisions": 225,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_0/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_0/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_0/J80",
+    "decisions": 370,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_0/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_0/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_0/I80",
+    "decisions": 308,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_1/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_1/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_1/J80",
+    "decisions": 388,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_1/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_1/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_1/I80",
+    "decisions": 255,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_2/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_2/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_2/J80",
+    "decisions": 411,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_2/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_2/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_2/I80",
+    "decisions": 256,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_3/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_3/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_3/J80",
+    "decisions": 358,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_3/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_3/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_3/I80",
+    "decisions": 252,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_4/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_4/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_4/J80",
+    "decisions": 363,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_4/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_4/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_4/I80",
+    "decisions": 256,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_5/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_5/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_5/J80",
+    "decisions": 447,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_5/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_5/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_5/I80",
+    "decisions": 269,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_6/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_6/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_6/J80",
+    "decisions": 369,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_6/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_6/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_6/I80",
+    "decisions": 253,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_7/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_7/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_7/J80",
+    "decisions": 378,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_7/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_7/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_7/I80",
+    "decisions": 255,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_8/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_8/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_8/J80",
+    "decisions": 365,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_8/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_8/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_8/I80",
+    "decisions": 260,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_9/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_9/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_9/J80",
+    "decisions": 407,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_9/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_9/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g1.0/seed_9/I80",
+    "decisions": 260,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_0/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_0/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_0/J80",
+    "decisions": 376,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_0/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_0/I40",
+    "decisions": 809,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_0/I80",
+    "decisions": 298,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_1/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_1/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_1/J80",
+    "decisions": 520,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_1/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_1/I40",
+    "decisions": 891,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_1/I80",
+    "decisions": 270,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_2/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_2/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_2/J80",
+    "decisions": 429,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_2/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_2/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_2/I80",
+    "decisions": 273,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_3/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_3/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_3/J80",
+    "decisions": 440,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_3/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_3/I40",
+    "decisions": 774,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_3/I80",
+    "decisions": 295,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_4/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_4/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_4/J80",
+    "decisions": 512,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_4/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_4/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_4/I80",
+    "decisions": 273,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_5/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_5/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_5/J80",
+    "decisions": 485,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_5/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_5/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_5/I80",
+    "decisions": 270,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_6/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_6/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_6/J80",
+    "decisions": 462,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_6/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_6/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_6/I80",
+    "decisions": 290,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_7/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_7/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_7/J80",
+    "decisions": 354,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_7/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_7/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_7/I80",
+    "decisions": 253,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_8/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_8/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_8/J80",
+    "decisions": 379,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_8/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_8/I40",
+    "decisions": 764,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_8/I80",
+    "decisions": 269,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_9/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_9/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_9/J80",
+    "decisions": 377,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_9/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_9/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p4_g1.0/seed_9/I80",
+    "decisions": 254,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_0/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_0/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_0/J80",
+    "decisions": 684,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_0/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_0/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_0/I80",
+    "decisions": 224,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_1/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_1/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_1/J80",
+    "decisions": 737,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_1/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_1/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_1/I80",
+    "decisions": 226,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_2/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_2/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_2/J80",
+    "decisions": 436,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_2/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_2/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_2/I80",
+    "decisions": 224,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_3/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_3/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_3/J80",
+    "decisions": 518,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_3/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_3/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_3/I80",
+    "decisions": 222,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_4/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_4/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_4/J80",
+    "decisions": 394,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_4/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_4/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_4/I80",
+    "decisions": 224,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_5/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_5/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_5/J80",
+    "decisions": 606,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_5/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_5/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_5/I80",
+    "decisions": 227,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_6/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_6/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_6/J80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_6/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_6/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_6/I80",
+    "decisions": 223,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_7/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_7/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_7/J80",
+    "decisions": 464,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_7/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_7/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_7/I80",
+    "decisions": 224,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_8/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_8/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_8/J80",
+    "decisions": 482,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_8/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_8/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_8/I80",
+    "decisions": 223,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_9/J20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_9/J40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_9/J80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_9/I20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_9/I40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/m2_periodic_h1/episodes/p3_g0.5/seed_9/I80",
+    "decisions": 225,
+    "causality_and_payload_checks": "passed"
+  }
+]

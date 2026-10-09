@@ -1,0 +1,42 @@
+[
+  {
+    "repo": "unitreerobotics/unitree_rl_gym",
+    "file": "deploy/deploy_mujoco/deploy_mujoco.py",
+    "sha256": "48e9f7a6b8ba701e68dfa48f2e89944c9f2aac1ec39c0a9915d6fe14ec71a4da",
+    "retrieved": "2026-10-07",
+    "ref": "276801e46c5d433564f24658bac64f254b7d2d4b",
+    "commit_at_lookup": "276801e46c5d433564f24658bac64f254b7d2d4b",
+    "matches_pinned_commit": true,
+    "source_url": "https://github.com/unitreerobotics/unitree_rl_gym/blob/276801e46c5d433564f24658bac64f254b7d2d4b/deploy/deploy_mujoco/deploy_mujoco.py"
+  },
+  {
+    "repo": "unitreerobotics/unitree_rl_gym",
+    "file": "deploy/deploy_mujoco/configs/h1.yaml",
+    "sha256": "4e509fa63fda52e38d21d9f1924b7c0d6bf9dfd1c2d9b94450b7f6e7ca281329",
+    "retrieved": "2026-10-07",
+    "ref": "276801e46c5d433564f24658bac64f254b7d2d4b",
+    "commit_at_lookup": "276801e46c5d433564f24658bac64f254b7d2d4b",
+    "matches_pinned_commit": true,
+    "source_url": "https://github.com/unitreerobotics/unitree_rl_gym/blob/276801e46c5d433564f24658bac64f254b7d2d4b/deploy/deploy_mujoco/configs/h1.yaml"
+  },
+  {
+    "repo": "roboterax/humanoid-gym",
+    "file": "humanoid/envs/custom/humanoid_env.py",
+    "sha256": "7baa5cf85e172cb1dbac7094040c995495e47b76eec1a15623ad262d1a1c1c93",
+    "retrieved": "2026-10-07",
+    "ref": "ae46e201c85a2b17e7f2cea59a441dae7ea88a8f",
+    "commit_at_lookup": "ae46e201c85a2b17e7f2cea59a441dae7ea88a8f",
+    "matches_pinned_commit": true,
+    "source_url": "https://github.com/roboterax/humanoid-gym/blob/ae46e201c85a2b17e7f2cea59a441dae7ea88a8f/humanoid/envs/custom/humanoid_env.py"
+  },
+  {
+    "repo": "roboterax/humanoid-gym",
+    "file": "humanoid/envs/custom/humanoid_config.py",
+    "sha256": "159c592627a409370e25fa3dff19417087a22cfaa388c071f7508057d37dac0f",
+    "retrieved": "2026-10-07",
+    "ref": "ae46e201c85a2b17e7f2cea59a441dae7ea88a8f",
+    "commit_at_lookup": "ae46e201c85a2b17e7f2cea59a441dae7ea88a8f",
+    "matches_pinned_commit": true,
+    "source_url": "https://github.com/roboterax/humanoid-gym/blob/ae46e201c85a2b17e7f2cea59a441dae7ea88a8f/humanoid/envs/custom/humanoid_config.py"
+  }
+]

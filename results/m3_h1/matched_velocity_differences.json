@@ -1,0 +1,128 @@
+[
+  {
+    "cohort": "closed_primary",
+    "condition": "ALL",
+    "n_seed": 40,
+    "difference_M3_minus_B1_m_s": -0.07575681533989578,
+    "ci95_low": -0.09947168511105928,
+    "ci95_high": -0.05120690727402629,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_primary",
+    "condition": "I20",
+    "n_seed": 40,
+    "difference_M3_minus_B1_m_s": -0.014901559119489621,
+    "ci95_low": -0.01503473484113602,
+    "ci95_high": -0.014783401579848917,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_primary",
+    "condition": "I40",
+    "n_seed": 40,
+    "difference_M3_minus_B1_m_s": -0.029144489569066522,
+    "ci95_low": -0.02927178446980503,
+    "ci95_high": -0.029017367062440205,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_primary",
+    "condition": "I80",
+    "n_seed": 40,
+    "difference_M3_minus_B1_m_s": -0.5415209334487523,
+    "ci95_low": -0.6085628511307353,
+    "ci95_high": -0.4789222487713111,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_primary",
+    "condition": "J20",
+    "n_seed": 40,
+    "difference_M3_minus_B1_m_s": 0.013769132798117742,
+    "ci95_low": 0.013753134876049341,
+    "ci95_high": 0.013782399790110745,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_primary",
+    "condition": "J40",
+    "n_seed": 40,
+    "difference_M3_minus_B1_m_s": 0.026790353183533667,
+    "ci95_low": 0.026671855848490182,
+    "ci95_high": 0.02690995825268941,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_primary",
+    "condition": "J80",
+    "n_seed": 40,
+    "difference_M3_minus_B1_m_s": 0.0904666041162824,
+    "ci95_low": -0.03962683369803033,
+    "ci95_high": 0.2200712896129493,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_extensions",
+    "condition": "ALL",
+    "n_seed": 40,
+    "difference_M3_minus_B1_m_s": -0.12232077992139934,
+    "ci95_low": -0.1419031292691893,
+    "ci95_high": -0.10370065891371338,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_extensions",
+    "condition": "I60",
+    "n_seed": 40,
+    "difference_M3_minus_B1_m_s": -0.09498087198089082,
+    "ci95_low": -0.09531822108712065,
+    "ci95_high": -0.09462220872821427,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_extensions",
+    "condition": "J60",
+    "n_seed": 40,
+    "difference_M3_minus_B1_m_s": -0.14966068786190784,
+    "ci95_low": -0.18895873964091087,
+    "ci95_high": -0.11234651040889303,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_joint",
+    "condition": "ALL",
+    "n_seed": 10,
+    "difference_M3_minus_B1_m_s": -0.2880992279907538,
+    "ci95_low": -0.36866093055854443,
+    "ci95_high": -0.2192757518480353,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_joint",
+    "condition": "J40I40",
+    "n_seed": 10,
+    "difference_M3_minus_B1_m_s": 0.05049782723691748,
+    "ci95_low": 0.049000903918861666,
+    "ci95_high": 0.051894080479440684,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_joint",
+    "condition": "J40I60",
+    "n_seed": 10,
+    "difference_M3_minus_B1_m_s": -0.3947300865592433,
+    "ci95_low": -0.537614538980413,
+    "ci95_high": -0.26778833430357213,
+    "posthoc_secondary": true
+  },
+  {
+    "cohort": "closed_joint",
+    "condition": "J60I40",
+    "n_seed": 10,
+    "difference_M3_minus_B1_m_s": -0.5200654246499358,
+    "ci95_low": -0.6763207915540012,
+    "ci95_high": -0.39530713458614497,
+    "posthoc_secondary": true
+  }
+]

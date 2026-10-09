@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "methods": [
+    "B1",
+    "M",
+    "M2",
+    "M3_CLI"
+  ],
+  "extra_independent_seed_count": 0
+}

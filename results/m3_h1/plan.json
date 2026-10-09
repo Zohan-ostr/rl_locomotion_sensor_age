@@ -1,0 +1,148 @@
+{
+  "train_seeds": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "development_seeds": [
+    26,
+    27,
+    28,
+    29
+  ],
+  "diagnostic_seeds": [
+    20,
+    21
+  ],
+  "test_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139
+  ],
+  "joint_test_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "primary_conditions": [
+    "J20",
+    "J40",
+    "J80",
+    "I20",
+    "I40",
+    "I80"
+  ],
+  "extension_conditions": [
+    "J60",
+    "I60"
+  ],
+  "joint_conditions": [
+    "J40I40",
+    "J60I40",
+    "J40I60"
+  ],
+  "training_conditions": [
+    "clean",
+    "J40",
+    "J60",
+    "J80",
+    "I40",
+    "I60",
+    "I80"
+  ],
+  "training_methods": [
+    "B1",
+    "M2"
+  ],
+  "methods": [
+    "B1",
+    "M",
+    "M2",
+    "M3"
+  ],
+  "candidates": [
+    {
+      "id": "linear_a0_g0.5",
+      "actions": false,
+      "gain": 0.5,
+      "ridge": 1.0
+    },
+    {
+      "id": "linear_a0_g1.0",
+      "actions": false,
+      "gain": 1.0,
+      "ridge": 1.0
+    },
+    {
+      "id": "linear_a1_g0.5",
+      "actions": true,
+      "gain": 0.5,
+      "ridge": 1.0
+    },
+    {
+      "id": "linear_a1_g1.0",
+      "actions": true,
+      "gain": 1.0,
+      "ridge": 1.0
+    }
+  ],
+  "horizons_ms": [
+    80,
+    80
+  ],
+  "history_packets": 3,
+  "history_actions": 4,
+  "joint_position_loss_scale_rad": 0.05,
+  "joint_velocity_loss_scale_rad_s": 1.0,
+  "closed_test_executed": false,
+  "primary_minimum_improvement": 0.1,
+  "bootstrap_resamples": 5000,
+  "bootstrap_rng_seed": 20261009
+}

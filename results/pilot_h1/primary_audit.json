@@ -1,0 +1,1352 @@
+[
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/clean/B0_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/clean/B1_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/clean/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J80/B1_H0_0",
+    "decisions": 377,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J80/M_H20_20",
+    "decisions": 560,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J80/M_H40_40",
+    "decisions": 408,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/J80/M_H80_80",
+    "decisions": 241,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I80/B1_H0_0",
+    "decisions": 386,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I80/M_H20_20",
+    "decisions": 292,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I80/M_H40_40",
+    "decisions": 198,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_0/I80/M_H80_80",
+    "decisions": 184,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/clean/B0_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/clean/B1_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/clean/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J80/B1_H0_0",
+    "decisions": 427,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J80/M_H20_20",
+    "decisions": 665,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J80/M_H40_40",
+    "decisions": 275,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/J80/M_H80_80",
+    "decisions": 233,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I80/B1_H0_0",
+    "decisions": 317,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I80/M_H20_20",
+    "decisions": 337,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I80/M_H40_40",
+    "decisions": 197,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_1/I80/M_H80_80",
+    "decisions": 180,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/clean/B0_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/clean/B1_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/clean/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J80/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J80/M_H20_20",
+    "decisions": 597,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J80/M_H40_40",
+    "decisions": 289,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/J80/M_H80_80",
+    "decisions": 227,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I80/B1_H0_0",
+    "decisions": 312,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I80/M_H20_20",
+    "decisions": 296,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I80/M_H40_40",
+    "decisions": 196,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_2/I80/M_H80_80",
+    "decisions": 184,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/clean/B0_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/clean/B1_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/clean/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J80/B1_H0_0",
+    "decisions": 421,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J80/M_H20_20",
+    "decisions": 509,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J80/M_H40_40",
+    "decisions": 310,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/J80/M_H80_80",
+    "decisions": 274,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I80/B1_H0_0",
+    "decisions": 333,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I80/M_H20_20",
+    "decisions": 283,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I80/M_H40_40",
+    "decisions": 198,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_3/I80/M_H80_80",
+    "decisions": 180,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/clean/B0_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/clean/B1_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/clean/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J80/B1_H0_0",
+    "decisions": 362,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J80/M_H20_20",
+    "decisions": 275,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J80/M_H40_40",
+    "decisions": 418,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/J80/M_H80_80",
+    "decisions": 222,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I80/B1_H0_0",
+    "decisions": 288,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I80/M_H20_20",
+    "decisions": 365,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I80/M_H40_40",
+    "decisions": 196,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_4/I80/M_H80_80",
+    "decisions": 181,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/clean/B0_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/clean/B1_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/clean/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J80/B1_H0_0",
+    "decisions": 367,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J80/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J80/M_H40_40",
+    "decisions": 329,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/J80/M_H80_80",
+    "decisions": 208,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I80/B1_H0_0",
+    "decisions": 308,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I80/M_H20_20",
+    "decisions": 318,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I80/M_H40_40",
+    "decisions": 197,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_5/I80/M_H80_80",
+    "decisions": 180,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/clean/B0_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/clean/B1_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/clean/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J80/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J80/M_H20_20",
+    "decisions": 548,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J80/M_H40_40",
+    "decisions": 279,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/J80/M_H80_80",
+    "decisions": 212,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I80/B1_H0_0",
+    "decisions": 334,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I80/M_H20_20",
+    "decisions": 295,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I80/M_H40_40",
+    "decisions": 196,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_6/I80/M_H80_80",
+    "decisions": 183,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/clean/B0_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/clean/B1_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/clean/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J80/B1_H0_0",
+    "decisions": 346,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J80/M_H20_20",
+    "decisions": 307,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J80/M_H40_40",
+    "decisions": 332,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/J80/M_H80_80",
+    "decisions": 222,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I80/B1_H0_0",
+    "decisions": 271,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I80/M_H20_20",
+    "decisions": 340,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I80/M_H40_40",
+    "decisions": 199,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_7/I80/M_H80_80",
+    "decisions": 182,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/clean/B0_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/clean/B1_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/clean/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J80/B1_H0_0",
+    "decisions": 686,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J80/M_H20_20",
+    "decisions": 717,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J80/M_H40_40",
+    "decisions": 246,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/J80/M_H80_80",
+    "decisions": 214,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I80/B1_H0_0",
+    "decisions": 283,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I80/M_H20_20",
+    "decisions": 319,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I80/M_H40_40",
+    "decisions": 197,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_8/I80/M_H80_80",
+    "decisions": 181,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/clean/B0_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/clean/B1_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/clean/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J80/B1_H0_0",
+    "decisions": 337,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J80/M_H20_20",
+    "decisions": 486,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J80/M_H40_40",
+    "decisions": 313,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/J80/M_H80_80",
+    "decisions": 297,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I20/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I20/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I20/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I20/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I40/B1_H0_0",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I40/M_H20_20",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I40/M_H40_40",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I40/M_H80_80",
+    "decisions": 1000,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I80/B1_H0_0",
+    "decisions": 288,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I80/M_H20_20",
+    "decisions": 254,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I80/M_H40_40",
+    "decisions": 197,
+    "causality_and_payload_checks": "passed"
+  },
+  {
+    "folder": "results/pilot_h1/episodes/seed_9/I80/M_H80_80",
+    "decisions": 180,
+    "causality_and_payload_checks": "passed"
+  }
+]

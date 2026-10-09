@@ -1,0 +1,7 @@
+test_delivered_only_and_no_reordering_regression (__main__.ConfidenceTests) ... ok
+test_identity_short_age_and_smooth_fade (__main__.ConfidenceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.011s
+
+OK

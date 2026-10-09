@@ -1,0 +1,34 @@
+{
+  "candidates": {
+    "cycle_g1": {
+      "n": 60,
+      "falls": 36,
+      "mean_alive_s": 12.925033333333333,
+      "velocity_rmse": 0.5031959787892553,
+      "walking_successes": 20
+    },
+    "cycle_g05": {
+      "n": 60,
+      "falls": 20,
+      "mean_alive_s": 15.207666666666666,
+      "velocity_rmse": 0.3253234901866715,
+      "walking_successes": 40
+    },
+    "confidence_j025": {
+      "n": 60,
+      "falls": 20,
+      "mean_alive_s": 15.8833,
+      "velocity_rmse": 0.3377656983903074,
+      "walking_successes": 40
+    },
+    "confidence_j0": {
+      "n": 60,
+      "falls": 18,
+      "mean_alive_s": 16.07946666666667,
+      "velocity_rmse": 0.34656777161165514,
+      "walking_successes": 40
+    }
+  },
+  "selected": "confidence_j0",
+  "independent_test": false
+}

@@ -1,0 +1,34 @@
+{
+  "candidates": {
+    "p2_g1.0": {
+      "n": 60,
+      "falls": 20,
+      "mean_alive_s": 15.251366666666666,
+      "velocity_rmse": 0.36395611932534894,
+      "walking_successes": 40
+    },
+    "p3_g1.0": {
+      "n": 60,
+      "falls": 20,
+      "mean_alive_s": 15.496233333333333,
+      "velocity_rmse": 0.3571399743755242,
+      "walking_successes": 40
+    },
+    "p4_g1.0": {
+      "n": 60,
+      "falls": 24,
+      "mean_alive_s": 15.44223333333333,
+      "velocity_rmse": 0.42041455623906754,
+      "walking_successes": 30
+    },
+    "p3_g0.5": {
+      "n": 60,
+      "falls": 18,
+      "mean_alive_s": 16.1904,
+      "velocity_rmse": 0.2828037246999203,
+      "walking_successes": 40
+    }
+  },
+  "selected": "p3_g0.5",
+  "independent_test": false
+}

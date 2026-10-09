@@ -1,0 +1,20 @@
+{
+  "fall_rate_improvement_B1_minus_M3": 0.16666666666666666,
+  "paired95_interval": [
+    0.16666666666666666,
+    0.16666666666666666
+  ],
+  "criterion_improvement_at_least_0_10": true,
+  "criterion_lower_bound_positive": true,
+  "n_seed": 40,
+  "conditions": [
+    "J20",
+    "J40",
+    "J80",
+    "I20",
+    "I40",
+    "I80"
+  ],
+  "primary_episode_count": 960,
+  "main_hypothesis_criterion_met": true
+}

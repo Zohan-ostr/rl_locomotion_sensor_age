@@ -1,0 +1,393 @@
+{
+  "seed": 0,
+  "condition": {
+    "id": "J80",
+    "delay_joints_ms": 80
+  },
+  "method": "M2",
+  "horizon_joints_ms": 40,
+  "horizon_imu_ms": 40,
+  "adapter_config": {
+    "window": 3,
+    "acceleration_limit": 100.0,
+    "angular_acceleration_limit": 50.0,
+    "velocity_gain": 1.0,
+    "acceleration_gain": 1.0,
+    "joint_correction_limit": 0.35,
+    "velocity_correction_limit": 6.0,
+    "omega_correction_limit": 2.0
+  },
+  "schedule_path": "/home/zohan/projects/rl_locomotion_sensor_age/results/pilot_h1/inputs/seed_0/J80.json",
+  "schedule_sha256": "dd057c44739c055bfddd7093631339660a356279656b86fbe39d0ad521553ba8",
+  "initial_state_path": "/home/zohan/projects/rl_locomotion_sensor_age/results/pilot_h1/inputs/seed_0/initial.json",
+  "initial_state_sha256": "823f3600dc72ae2a492f16b9c7a10ceb49861511144cfbb700fbb15ffa2a028d",
+  "initial_qpos": [
+    0.0,
+    0.0,
+    1.05,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0008431250813726331,
+    -0.0016916660867135652,
+    -0.0009354851907045257,
+    -0.0005075032036580582,
+    0.0020361236096784223,
+    -0.0009518399641890237,
+    -0.0025601978520574846,
+    0.0007827051813126835,
+    -0.0013413556002273444,
+    -0.002221677113345158
+  ],
+  "initial_qvel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "upstream_commit": "276801e46c5d433564f24658bac64f254b7d2d4b",
+  "checkpoint_sha256": "44a0fbceb81f3877833ae9a398d039bea1759cb0d3c8188181013885f70589eb",
+  "scene_sha256": "88ffcccad2c5df71a7472b4b30ec7e4ea06e045efc6b4e11ccd8bebc2848f0b3",
+  "config_sha256": "4e509fa63fda52e38d21d9f1924b7c0d6bf9dfd1c2d9b94450b7f6e7ca281329",
+  "model_asset_sha256": {
+    "resources/robots/h1/h1.xml": "2bee8abddbf4bc093bcdb2266c7139cd1c78e279bf65f7ee9fde41fe599900d4",
+    "resources/robots/h1/meshes/left_ankle_link.STL": "2d403f5414764e600af95d96eaee8ab7e49d2c7f75c1ae3dbbde052d4a14ffa1",
+    "resources/robots/h1/meshes/left_elbow_link.STL": "5ccf9bc83a751c1965b692e75534e57ee3c8a0916cbcff2ccccd8fe2b9d818d7",
+    "resources/robots/h1/meshes/left_hip_pitch_link.STL": "aa790c31ffc100cd182f2bf4480e7bfda675edc58ed8f361b6553a4975c9de3b",
+    "resources/robots/h1/meshes/left_hip_roll_link.STL": "8ed880cf1171e048cfe50489fe2546c32790ac0c24a2b3b4c560495401013552",
+    "resources/robots/h1/meshes/left_hip_yaw_link.STL": "103a854e684b84e1baba7d073822079069c64d0fa7b1592f29d38bd29f545bfb",
+    "resources/robots/h1/meshes/left_knee_link.STL": "efda8a6c54406c788102c0d6e59ea95e24114607bc2da9a2bf7f287ef7e48109",
+    "resources/robots/h1/meshes/left_shoulder_pitch_link.STL": "42e1db49464ca0f44f933114ee426e7f6d6310d20cf104bfa38b5ed4794cfab7",
+    "resources/robots/h1/meshes/left_shoulder_roll_link.STL": "8d3bcf767d72a9a5d7dae539eae79dc4132f0159b8803a6f6f2f9ad4b7e94d19",
+    "resources/robots/h1/meshes/left_shoulder_yaw_link.STL": "e22a5b53f8f307e6c5d6c17f9ceae4852c6468547a951cb39dfdec9ee414b515",
+    "resources/robots/h1/meshes/logo_link.STL": "ef9635c847ca7cd61aeaed86ad599935b648fb6f8688867c0448917b1811511b",
+    "resources/robots/h1/meshes/pelvis.STL": "dc2cbbeb07d3b63bce9fedeb8cf5252609dca1e89380734d22d5b3c8ded2f15c",
+    "resources/robots/h1/meshes/right_ankle_link.STL": "b39f5b3245926e935b9b37bdf25080d482d3be921aa5d70e01fe5f29ef70910a",
+    "resources/robots/h1/meshes/right_elbow_link.STL": "bc1b2aa33cffda279b3e6a40b5b932b86de9cce6c41f0c0d860b442e81edcdc2",
+    "resources/robots/h1/meshes/right_hip_pitch_link.STL": "3c0300dd96432f218857886007e9d4e8be038cd8b85e04e84a59df4de7f90476",
+    "resources/robots/h1/meshes/right_hip_roll_link.STL": "3e95b01b0a215e1d134545d4073cf7a72ab38ca33e35c606c03f1706d63588c6",
+    "resources/robots/h1/meshes/right_hip_yaw_link.STL": "10badbb0ac78e22fc220f421b1c919cfcf59406b412d78313e4b8b06cbc51e47",
+    "resources/robots/h1/meshes/right_knee_link.STL": "6183abbaef2afc775c220853e403b8479022a99954dbeef829b39d71916ddeda",
+    "resources/robots/h1/meshes/right_shoulder_pitch_link.STL": "850ffa7321993bfadcdb8bab1d422239f6a20abe27daa5ef99622f55d4da3217",
+    "resources/robots/h1/meshes/right_shoulder_roll_link.STL": "b9e793e351e09027d27427c06df2c1cb6b37c0205d0f68686b0d73916c6821de",
+    "resources/robots/h1/meshes/right_shoulder_yaw_link.STL": "0c9e4bec895f24c07fb2c4d132fc5e3cc7146155547267e9c270789af6567781",
+    "resources/robots/h1/meshes/torso_link.STL": "3ab785cbfbd851b0e9c59a46871aabc4718f3f8e726e21a2d14360d217ec7ba8",
+    "resources/robots/h1/scene.xml": "88ffcccad2c5df71a7472b4b30ec7e4ea06e045efc6b4e11ccd8bebc2848f0b3",
+    "resources/robots/h1/urdf/h1.urdf": "89c3824f471ec32060d0ffc702a13e296a7010d040a9e3a9c1f320706d42f4de"
+  },
+  "upstream_config": {
+    "policy_path": "{LEGGED_GYM_ROOT_DIR}/deploy/pre_train/h1/motion.pt",
+    "xml_path": "{LEGGED_GYM_ROOT_DIR}/resources/robots/h1/scene.xml",
+    "simulation_duration": 60.0,
+    "simulation_dt": 0.002,
+    "control_decimation": 10,
+    "kps": [
+      150,
+      150,
+      150,
+      200,
+      40,
+      150,
+      150,
+      150,
+      200,
+      40
+    ],
+    "kds": [
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2
+    ],
+    "default_angles": [
+      0,
+      0.0,
+      -0.1,
+      0.3,
+      -0.2,
+      0,
+      0.0,
+      -0.1,
+      0.3,
+      -0.2
+    ],
+    "ang_vel_scale": 0.25,
+    "dof_pos_scale": 1.0,
+    "dof_vel_scale": 0.05,
+    "action_scale": 0.25,
+    "cmd_scale": [
+      2.0,
+      2.0,
+      0.25
+    ],
+    "num_actions": 10,
+    "num_obs": 41,
+    "cmd_init": [
+      0.5,
+      0,
+      0
+    ]
+  },
+  "pilot_config": {
+    "status": "pilot_only_not_closed_test",
+    "runtime": {
+      "duration_s": 20.0,
+      "warmup_s": 2.0,
+      "threads": 1,
+      "device": "cpu",
+      "wall_clock_sleep": false
+    },
+    "initialization": {
+      "joint_perturbation_rad": 0.003,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "fall": {
+      "body": "pelvis",
+      "nominal_height_m": 1.0329874238443275,
+      "nominal_height_source": "results/baseline_h1/headless20/summary.json",
+      "height_fraction": 0.6,
+      "roll_pitch_deg": 60.0,
+      "persistence_s": 0.2,
+      "stop_after_confirmed_fall": true,
+      "status": "pilot_rule_candidate_before_test"
+    },
+    "adapter": {
+      "horizon_candidates_ms": [
+        20,
+        40,
+        80
+      ],
+      "selection": "per_stream_on_its_three_E2_conditions",
+      "ranking": [
+        "fewest_falls",
+        "longest_mean_alive_time",
+        "lowest_mean_velocity_rmse",
+        "smallest_horizon"
+      ],
+      "normalization": "after_prediction"
+    },
+    "statistics": {
+      "walking_rmse_threshold_m_s": 0.2,
+      "bootstrap_resamples": 5000,
+      "bootstrap_rng_seed": 20261008
+    },
+    "scope": {
+      "primary": "E0_and_six_E2_conditions",
+      "extensions_after_selection": "E1_equal_delays_E3_burst_drop_E4_jitter",
+      "diagnostic_methods": "B2_AJ_AI_on_E2_seed_0_only_after_selection",
+      "example_seed": 0,
+      "closed_test_seeds_used": false
+    }
+  },
+  "pilot_config_sha256": "4990ce8f5224dcfcee159c166fb6509f4a2e86136240c1020007c2716b962ee4",
+  "runner_sha256": {
+    "run_sensor_episode.py": "c495de8d71937976d70f3236c5f437bcd64e91f1668e5f7e2e41b0ac98cc9f7d",
+    "sensor_age.py": "e09ea7899e86167f29e2e7800c63dc13744d0c0001191e1ae8c8e85653b2ca5d",
+    "run_h1_baseline.py": "ec6484018acce734691f61b1c61349444e70f5beab157f6f85c05aed6b811161",
+    "history_compensator.py": "2253093a64a13886a3004432ce772ad377004c0fa86cfad87a78fd936e573338"
+  },
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "torch": "2.5.1+cpu",
+  "mujoco": "3.2.7",
+  "numpy": "1.26.4",
+  "cuda_build": null,
+  "torch_threads": 1,
+  "interop_threads": 1,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "joint_order": [
+    "left_hip_yaw_joint",
+    "left_hip_roll_joint",
+    "left_hip_pitch_joint",
+    "left_knee_joint",
+    "left_ankle_joint",
+    "right_hip_yaw_joint",
+    "right_hip_roll_joint",
+    "right_hip_pitch_joint",
+    "right_knee_joint",
+    "right_ankle_joint"
+  ],
+  "shape_probe_memory_restored": true,
+  "initial_policy_buffer_max_abs": {
+    "hidden_state": 0.0,
+    "cell_state": 0.0
+  },
+  "input_shape": [
+    1,
+    41
+  ],
+  "output_shape": [
+    1,
+    10
+  ],
+  "simulation_steps": 2176,
+  "simulation_seconds": 4.352,
+  "mujoco_time_s": 4.351999999999743,
+  "max_episode_seconds": 20.0,
+  "policy_calls": 217,
+  "command": [
+    0.5,
+    0.0,
+    0.0
+  ],
+  "fallen": true,
+  "fall_time_s": 4.352,
+  "time_alive_s": 4.352,
+  "censored": false,
+  "fall_rule": {
+    "body": "pelvis",
+    "nominal_height_m": 1.0329874238443275,
+    "nominal_height_source": "results/baseline_h1/headless20/summary.json",
+    "height_fraction": 0.6,
+    "roll_pitch_deg": 60.0,
+    "persistence_s": 0.2,
+    "stop_after_confirmed_fall": true,
+    "status": "pilot_rule_candidate_before_test"
+  },
+  "height_threshold_m": 0.6197924543065965,
+  "height_min_m": 0.37764309144315283,
+  "max_abs_roll_pitch_deg": [
+    116.69846360530579,
+    39.37051526864997
+  ],
+  "displacement_xy_m": [
+    2.919066370308244,
+    -0.6740614179766133
+  ],
+  "path_length_xy_m": 3.2673403687576053,
+  "mean_vx_yaw_after_warmup_before_fall_m_s": 0.7957850487762796,
+  "velocity_rmse_after_warmup_before_fall_m_s": 1.1072219379618298,
+  "velocity_valid_samples": 118,
+  "walking_success": false,
+  "joint_prediction_rmse_rad": 0.31453662940010113,
+  "gravity_prediction_mean_angle_rad": 0.0,
+  "action_increment_mean_l2": 2.189131229635208,
+  "ages_s": {
+    "joints": {
+      "median": 0.08,
+      "p95": 0.08,
+      "max": 0.08
+    },
+    "imu": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    }
+  },
+  "transport": {
+    "joints": {
+      "arrived": 214,
+      "accepted": 214,
+      "rejected_old": 0,
+      "dropped_sample_count_executed": 0
+    },
+    "imu": {
+      "arrived": 218,
+      "accepted": 218,
+      "rejected_old": 0,
+      "dropped_sample_count_executed": 0
+    }
+  },
+  "floor_contact_steps": {
+    "left_ankle_link": 1329,
+    "right_ankle_link": 1231,
+    "pelvis": 24
+  },
+  "floor_contact_onsets": {
+    "left_ankle_link": 27,
+    "right_ankle_link": 35,
+    "pelvis": 1
+  },
+  "wall_seconds_loop": 0.2952030679989548,
+  "cpu_seconds_loop": 0.2951868470000001,
+  "simulation_to_wall_ratio": 14.742394208502633,
+  "timing_ms": {
+    "adapter_ms": {
+      "median": 0.04626800000551157,
+      "p95": 0.05389699981606099,
+      "max": 0.07495499994547572
+    },
+    "inference_ms": {
+      "median": 0.1299520008615218,
+      "p95": 0.19050359878747256,
+      "max": 3.372600998773123
+    },
+    "control_cycle_ms": {
+      "median": 1.3268479997350369,
+      "p95": 1.5222638001432642,
+      "max": 4.528117999143433
+    }
+  },
+  "mujoco_warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "video": false,
+  "signal_stream_order": [
+    "joints",
+    "imu"
+  ],
+  "test_seeds_used": false
+}

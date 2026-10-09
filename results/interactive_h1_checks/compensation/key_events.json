@@ -1,0 +1,22 @@
+[
+  {
+    "time_s": 5.0,
+    "stream": "imu",
+    "blocked": true
+  },
+  {
+    "time_s": 5.12,
+    "stream": "imu",
+    "blocked": false
+  },
+  {
+    "time_s": 7.0,
+    "stream": "joints",
+    "blocked": true
+  },
+  {
+    "time_s": 7.12,
+    "stream": "joints",
+    "blocked": false
+  }
+]

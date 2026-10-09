@@ -1,0 +1,36 @@
+{
+  "status": "development_candidate_frozen_before_additional_validation",
+  "selection": {
+    "root": "results/m2_hybrid_h1",
+    "candidate": "hybrid",
+    "n": 60,
+    "falls": 18,
+    "mean_alive_s": 16.4764,
+    "velocity_rmse": 0.3075353845960425,
+    "walking_successes": 40
+  },
+  "adapter_config": {
+    "family": "hybrid",
+    "joints": {
+      "family": "periodic",
+      "config": {
+        "period": 0.8,
+        "history": 60,
+        "harmonics": 3,
+        "ridge": 0.001,
+        "gain": 0.5,
+        "joint_correction_limit": 0.35,
+        "velocity_correction_limit": 6.0,
+        "omega_correction_limit": 2.0
+      }
+    },
+    "imu": {
+      "family": "legacy",
+      "config": {}
+    }
+  },
+  "horizon_joints_ms": 120,
+  "horizon_imu_ms": 20,
+  "closed_test_seeds_used": false,
+  "not_validated_yet": false
+}

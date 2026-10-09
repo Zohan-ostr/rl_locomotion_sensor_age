@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "csv_rows": {
+    "paired_differences": 336,
+    "common_action_timeline": 2108,
+    "episodes": 1672,
+    "common_trajectory": 8,
+    "ages": 3344,
+    "cpu_timing": 12,
+    "groups": 56,
+    "matched_velocity_differences": 14,
+    "matched_velocity_windows": 700
+  },
+  "figures_png_pdf": 14,
+  "frozen_code_unchanged": true,
+  "artifact_hashes_match": true,
+  "report_local_links_exist": true
+}

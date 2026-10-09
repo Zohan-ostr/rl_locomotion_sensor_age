@@ -1,0 +1,35 @@
+{
+  "closed_primary_episodes": 960,
+  "closed_single_extensions": 320,
+  "closed_joint_episodes": 120,
+  "no_retuning": true,
+  "paired_identity_checks": "passed",
+  "per_episode_packet_audits": "passed",
+  "audited_closed_episodes": 1400,
+  "frozen_code_checks": {
+    "run_sensor_episode.py": true,
+    "sensor_age.py": true,
+    "linear_compensator.py": true,
+    "run_m3_study.py": true,
+    "train_m3.py": true,
+    "check_m3.py": true,
+    "run_h1_baseline.py": true,
+    "hybrid_compensator.py": true,
+    "periodic_compensator.py": true
+  },
+  "default_profile_matches_frozen": true,
+  "steady_observation_ages_match_conditions": true,
+  "closed_episodes_use_no_oracle_or_diagnostic_forwards": true,
+  "per_episode_frozen_source_model_checks": true,
+  "legacy_B1_M_M2_and_M3_cli_bitwise_repeats": "passed",
+  "all_closed_calls_after_opening": true,
+  "frozen_training_seeds": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "model_hash_matches_frozen": true
+}

@@ -1,0 +1,13 @@
+{
+  "candidates": {
+    "hybrid": {
+      "n": 60,
+      "falls": 18,
+      "mean_alive_s": 16.4764,
+      "velocity_rmse": 0.3075353845960425,
+      "walking_successes": 40
+    }
+  },
+  "selected": "hybrid",
+  "independent_test": false
+}

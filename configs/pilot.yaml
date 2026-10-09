@@ -1,0 +1,35 @@
+# Pilot configuration, fixed before examining seed 0–9 outcomes.
+status: pilot_only_not_closed_test
+runtime:
+  duration_s: 20.0
+  warmup_s: 2.0
+  threads: 1
+  device: cpu
+  wall_clock_sleep: false
+initialization:
+  joint_perturbation_rad: 0.003
+  seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+fall:
+  body: pelvis
+  nominal_height_m: 1.0329874238443275
+  nominal_height_source: results/baseline_h1/headless20/summary.json
+  height_fraction: 0.6
+  roll_pitch_deg: 60.0
+  persistence_s: 0.2
+  stop_after_confirmed_fall: true
+  status: pilot_rule_candidate_before_test
+adapter:
+  horizon_candidates_ms: [20, 40, 80]
+  selection: per_stream_on_its_three_E2_conditions
+  ranking: [fewest_falls, longest_mean_alive_time, lowest_mean_velocity_rmse, smallest_horizon]
+  normalization: after_prediction
+statistics:
+  walking_rmse_threshold_m_s: 0.2
+  bootstrap_resamples: 5000
+  bootstrap_rng_seed: 20261008
+scope:
+  primary: E0_and_six_E2_conditions
+  extensions_after_selection: E1_equal_delays_E3_burst_drop_E4_jitter
+  diagnostic_methods: B2_AJ_AI_on_E2_seed_0_only_after_selection
+  example_seed: 0
+  closed_test_seeds_used: false

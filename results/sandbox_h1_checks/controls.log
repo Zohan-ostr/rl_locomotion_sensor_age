@@ -1,0 +1,10 @@
+I: IMU; J: суставы; W: идти/стоять; C: компенсация; R: поднять (свободный режим); Esc: выход.
+{"time_s": 0.0, "key": "w", "walking": false, "method": "B1", "reset_count": 0}
+{"time_s": 3.0, "key": "c", "walking": false, "method": "M", "reset_count": 0}
+{"time_s": 5.0, "key": "w", "walking": true, "method": "M", "reset_count": 0}
+6.00 с: imu BLOCKED
+Падение зарегистрировано: 7.578 с; демонстрация продолжается.
+8.00 с: imu LIVE
+{"time_s": 8.0, "key": "r", "walking": false, "method": "M", "reset_count": 1}
+{"time_s": 12.0, "key": "w", "walking": true, "method": "M", "reset_count": 1}
+Логи: /home/zohan/projects/rl_locomotion_sensor_age/results/sandbox_h1_checks/controls

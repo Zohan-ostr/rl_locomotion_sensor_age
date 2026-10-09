@@ -1,0 +1,13 @@
+test_bounded_history_and_payload_unchanged (__main__.M3Tests) ... ok
+test_clipped_joint_derivative_and_gravity (__main__.M3Tests) ... ok
+test_context_and_timestamp_features (__main__.M3Tests) ... ok
+test_future_and_old_packets (__main__.M3Tests) ... ok
+test_growth_and_horizon_cap_constant_velocity (__main__.M3Tests) ... ok
+test_joint_curve_analytic_derivative_including_coefficient_bounds (__main__.M3Tests) ... ok
+test_no_actions_variant_invariance (__main__.M3Tests) ... ok
+test_zero_age_exact_even_outside_limits (__main__.M3Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.031s
+
+OK

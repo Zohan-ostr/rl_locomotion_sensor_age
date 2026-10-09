@@ -1,0 +1,2574 @@
+{
+  "status": "pilot_only",
+  "test_seeds_used": false,
+  "config": {
+    "status": "pilot_only_not_closed_test",
+    "runtime": {
+      "duration_s": 20.0,
+      "warmup_s": 2.0,
+      "threads": 1,
+      "device": "cpu",
+      "wall_clock_sleep": false
+    },
+    "initialization": {
+      "joint_perturbation_rad": 0.003,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "fall": {
+      "body": "pelvis",
+      "nominal_height_m": 1.0329874238443275,
+      "nominal_height_source": "results/baseline_h1/headless20/summary.json",
+      "height_fraction": 0.6,
+      "roll_pitch_deg": 60.0,
+      "persistence_s": 0.2,
+      "stop_after_confirmed_fall": true,
+      "status": "pilot_rule_candidate_before_test"
+    },
+    "adapter": {
+      "horizon_candidates_ms": [
+        20,
+        40,
+        80
+      ],
+      "selection": "per_stream_on_its_three_E2_conditions",
+      "ranking": [
+        "fewest_falls",
+        "longest_mean_alive_time",
+        "lowest_mean_velocity_rmse",
+        "smallest_horizon"
+      ],
+      "normalization": "after_prediction"
+    },
+    "statistics": {
+      "walking_rmse_threshold_m_s": 0.2,
+      "bootstrap_resamples": 5000,
+      "bootstrap_rng_seed": 20261008
+    },
+    "scope": {
+      "primary": "E0_and_six_E2_conditions",
+      "extensions_after_selection": "E1_equal_delays_E3_burst_drop_E4_jitter",
+      "diagnostic_methods": "B2_AJ_AI_on_E2_seed_0_only_after_selection",
+      "example_seed": 0,
+      "closed_test_seeds_used": false
+    }
+  },
+  "primary_cases": [
+    {
+      "seed": 0,
+      "condition": "clean",
+      "method": "B0",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "clean",
+      "method": "B1",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "clean",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "clean",
+      "method": "B0",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "clean",
+      "method": "B1",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "clean",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "clean",
+      "method": "B0",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "clean",
+      "method": "B1",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "clean",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "clean",
+      "method": "B0",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "clean",
+      "method": "B1",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "clean",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 3,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "clean",
+      "method": "B0",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "clean",
+      "method": "B1",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "clean",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 4,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "clean",
+      "method": "B0",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "clean",
+      "method": "B1",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "clean",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 5,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "clean",
+      "method": "B0",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "clean",
+      "method": "B1",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "clean",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 6,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "clean",
+      "method": "B0",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "clean",
+      "method": "B1",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "clean",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 7,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "clean",
+      "method": "B0",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "clean",
+      "method": "B1",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "clean",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 8,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "clean",
+      "method": "B0",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "clean",
+      "method": "B1",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "clean",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "J80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I20",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I20",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I40",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I40",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I80",
+      "method": "B1",
+      "horizons_ms": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        20,
+        20
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        40,
+        40
+      ]
+    },
+    {
+      "seed": 9,
+      "condition": "I80",
+      "method": "M",
+      "horizons_ms": [
+        80,
+        80
+      ]
+    }
+  ],
+  "extension_conditions": [
+    {
+      "id": "equal20",
+      "delay_joints_ms": 20,
+      "delay_imu_ms": 20
+    },
+    {
+      "id": "equal40",
+      "delay_joints_ms": 40,
+      "delay_imu_ms": 40
+    },
+    {
+      "id": "equal80",
+      "delay_joints_ms": 80,
+      "delay_imu_ms": 80
+    },
+    {
+      "id": "equal120",
+      "delay_joints_ms": 120,
+      "delay_imu_ms": 120
+    },
+    {
+      "id": "drop_joints_1",
+      "drop_stream": "joints",
+      "missing_packets": 1
+    },
+    {
+      "id": "drop_joints_2",
+      "drop_stream": "joints",
+      "missing_packets": 2
+    },
+    {
+      "id": "drop_joints_4",
+      "drop_stream": "joints",
+      "missing_packets": 4
+    },
+    {
+      "id": "drop_joints_6",
+      "drop_stream": "joints",
+      "missing_packets": 6
+    },
+    {
+      "id": "drop_imu_1",
+      "drop_stream": "imu",
+      "missing_packets": 1
+    },
+    {
+      "id": "drop_imu_2",
+      "drop_stream": "imu",
+      "missing_packets": 2
+    },
+    {
+      "id": "drop_imu_4",
+      "drop_stream": "imu",
+      "missing_packets": 4
+    },
+    {
+      "id": "drop_imu_6",
+      "drop_stream": "imu",
+      "missing_packets": 6
+    },
+    {
+      "id": "jitter",
+      "jitter": true
+    }
+  ],
+  "diagnostic_scope": "B2/AJ/AI, six E2 conditions, seed 0 only",
+  "selection_note": "In J-only/I-only conditions the other stream has exact zero-age identity. Three common-horizon runs therefore cover all nine independent horizon pairs without duplicate runs.",
+  "planned_episode_count": 548,
+  "validation_episode_count": 3,
+  "not_run": [
+    "closed seeds 100\u2013139",
+    "mixed E2 delay pairs",
+    "noise",
+    "second command speed"
+  ]
+}

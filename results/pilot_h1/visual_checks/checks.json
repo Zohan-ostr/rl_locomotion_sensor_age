@@ -1,0 +1,44 @@
+[
+  {
+    "method": "B1",
+    "source": "results/pilot_h1/episodes/seed_0/J80/B1_H0_0",
+    "visual_replay": "results/pilot_h1/visual_checks/seed0_J80_B1",
+    "physical_and_policy_trajectory_bitwise_equal": true,
+    "fall_time_s": 7.55,
+    "frame_count": 188,
+    "frame_indices": [
+      162,
+      182,
+      187
+    ],
+    "fps": 25.0,
+    "frames_at_simulation_time_s": [
+      6.52,
+      7.32,
+      7.52
+    ],
+    "loop_wall_seconds_with_rendering": 29.821516368000175,
+    "excluded_from_episode_counts": true
+  },
+  {
+    "method": "M",
+    "source": "results/pilot_h1/episodes/seed_0/J80/M_H20_20",
+    "visual_replay": "results/pilot_h1/visual_checks/seed0_J80_M",
+    "physical_and_policy_trajectory_bitwise_equal": true,
+    "fall_time_s": 11.218,
+    "frame_count": 280,
+    "frame_indices": [
+      254,
+      274,
+      279
+    ],
+    "fps": 25.0,
+    "frames_at_simulation_time_s": [
+      10.2,
+      11.0,
+      11.2
+    ],
+    "loop_wall_seconds_with_rendering": 44.71356059399977,
+    "excluded_from_episode_counts": true
+  }
+]

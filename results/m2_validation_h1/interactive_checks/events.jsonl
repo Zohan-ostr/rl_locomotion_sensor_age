@@ -1,0 +1,6 @@
+{"time_s": 3.0, "key": "c", "walking": true, "method": "M", "reset_count": 0}
+{"time_s": 5.0, "key": "w", "walking": false, "method": "M", "reset_count": 0}
+{"time_s": 6.0, "key": "r", "walking": false, "method": "M", "reset_count": 1}
+{"time_s": 8.0, "key": "w", "walking": true, "method": "M", "reset_count": 1}
+{"time_s": 10.0, "stream": "joints", "blocked": true}
+{"time_s": 10.120000000000001, "stream": "joints", "blocked": false}

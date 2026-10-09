@@ -1,0 +1,5 @@
+mode,duration,algorithms,controls,realtime
+baseline,20 s default,fresh,none,no
+sensor episode,20 s protocol,B0/B1/B2/M/AJ/AI/M2,saved schedule,no
+interactive,20 s default,B1/M,"I/J, mouse, Esc",yes
+sandbox,until Esc,B1/M2 (or legacy M),"W/C/R/I/J, mouse, Esc",yes

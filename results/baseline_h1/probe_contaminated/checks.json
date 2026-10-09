@@ -1,0 +1,6 @@
+{
+  "gravity_matches_mujoco_rotation_max_error": 0.0,
+  "gravity_pitch_and_roll_sign": "passed",
+  "trajectory_and_walking_checks": "passed: finite values, 10000 steps, 1000 calls, 20 s, walking contacts, no fall/warnings",
+  "video_and_headless_physical_trajectory_max_difference": 0.0
+}

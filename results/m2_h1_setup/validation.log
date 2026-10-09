@@ -1,0 +1,195 @@
+{"validation_seed_done": 10, "episodes_done": 18, "elapsed_s": 22.35}
+{"validation_seed_done": 11, "episodes_done": 36, "elapsed_s": 45.9}
+{"validation_seed_done": 12, "episodes_done": 54, "elapsed_s": 69.29}
+{"validation_seed_done": 13, "episodes_done": 72, "elapsed_s": 92.36}
+{"validation_seed_done": 14, "episodes_done": 90, "elapsed_s": 117.0}
+{"validation_seed_done": 15, "episodes_done": 108, "elapsed_s": 140.66}
+{"validation_seed_done": 16, "episodes_done": 126, "elapsed_s": 164.9}
+{"validation_seed_done": 17, "episodes_done": 144, "elapsed_s": 188.65}
+{"validation_seed_done": 18, "episodes_done": 162, "elapsed_s": 212.27}
+{"validation_seed_done": 19, "episodes_done": 180, "elapsed_s": 235.8}
+{"extra_seed_done": 0, "extra_episodes_done": 10}
+{"extra_seed_done": 1, "extra_episodes_done": 20}
+{"extra_seed_done": 2, "extra_episodes_done": 30}
+{"extra_seed_done": 3, "extra_episodes_done": 40}
+{"extra_seed_done": 4, "extra_episodes_done": 50}
+{"extra_seed_done": 5, "extra_episodes_done": 60}
+{"extra_seed_done": 6, "extra_episodes_done": 70}
+{"extra_seed_done": 7, "extra_episodes_done": 80}
+{"extra_seed_done": 8, "extra_episodes_done": 90}
+{"extra_seed_done": 9, "extra_episodes_done": 100}
+{
+  "selected": {
+    "root": "results/m2_hybrid_h1",
+    "candidate": "hybrid",
+    "n": 60,
+    "falls": 18,
+    "mean_alive_s": 16.4764,
+    "velocity_rmse": 0.3075353845960425,
+    "walking_successes": 40
+  },
+  "validation": {
+    "ALL": {
+      "B1": {
+        "n": 60,
+        "falls": 20,
+        "mean_alive_s": 15.754133333333334,
+        "velocity_rmse": 0.3317588815647208,
+        "walking_successes": 40
+      },
+      "M": {
+        "n": 60,
+        "falls": 20,
+        "mean_alive_s": 16.040966666666666,
+        "velocity_rmse": 0.3389394644569463,
+        "walking_successes": 40
+      },
+      "M2": {
+        "n": 60,
+        "falls": 20,
+        "mean_alive_s": 15.924066666666667,
+        "velocity_rmse": 0.32107566719201736,
+        "walking_successes": 40
+      }
+    },
+    "J20": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.1473766758867258,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.17058161712688408,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.1441529148816799,
+        "walking_successes": 10
+      }
+    },
+    "J40": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.15215762422833526,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.18245977298196633,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.13655879718508607,
+        "walking_successes": 10
+      }
+    },
+    "J80": {
+      "B1": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 7.7462,
+        "velocity_rmse": 0.7458698800090107,
+        "walking_successes": 0
+      },
+      "M": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 10.056000000000001,
+        "velocity_rmse": 0.6772517820513134,
+        "walking_successes": 0
+      },
+      "M2": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 9.354600000000001,
+        "velocity_rmse": 0.6423986765038244,
+        "walking_successes": 0
+      }
+    },
+    "I20": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.1581729500296598,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.14559135309540758,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.14559135309540758,
+        "walking_successes": 10
+      }
+    },
+    "I40": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.17461177672969624,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.15839963302485335,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.15839963302485335,
+        "walking_successes": 10
+      }
+    },
+    "I80": {
+      "B1": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 6.7786,
+        "velocity_rmse": 0.6123643825048966,
+        "walking_successes": 0
+      },
+      "M": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 6.1898,
+        "velocity_rmse": 0.6993526284612528,
+        "walking_successes": 0
+      },
+      "M2": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 6.1898,
+        "velocity_rmse": 0.6993526284612528,
+        "walking_successes": 0
+      }
+    }
+  },
+  "extra_falls": 0
+}

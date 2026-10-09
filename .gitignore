@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+.DS_Store
+vendor/
+checkpoints/
+raw_logs/
+*.mp4
+*.webm
+*.avi
+*.mov
+*.mkv
+*.gif
+!results/README.md
+# User runs and setup logs stay local; measured research series remain visible.
+results/setup/
+results/user_runs/
+
+# Regenerable raw signals, trajectories, delivery traces, and input schedules.
+# Keep summary JSON, aggregate CSV tables, figures, and reports in Git.
+/results/**/*.npz
+/results/**/*.npy
+/results/**/trajectory.csv
+/results/**/delivery_events.csv
+/results/**/chunks/
+/results/**/inputs/
+/results/**/ages/
+
+# Local interactive sessions and generated model weights.
+/results/interactive_h1/
+/results/**/models/
+/results/**/*.pt
+/results/**/*.pth
+/results/**/*.onnx
+

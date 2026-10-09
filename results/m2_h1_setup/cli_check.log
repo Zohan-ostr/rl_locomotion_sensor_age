@@ -1,0 +1,28 @@
+{
+  "seed": 10,
+  "condition": {
+    "id": "J40",
+    "delay_joints_ms": 40
+  },
+  "method": "M2",
+  "fallen": false,
+  "time_alive_s": 20.0,
+  "velocity_rmse_after_warmup_before_fall_m_s": 0.13658286414562615,
+  "timing_ms": {
+    "adapter_ms": {
+      "median": 0.23487250018661143,
+      "p95": 0.24854809962562285,
+      "max": 0.9927219998644432
+    },
+    "inference_ms": {
+      "median": 0.137001499751932,
+      "p95": 0.15303489999496378,
+      "max": 3.45493799977703
+    },
+    "control_cycle_ms": {
+      "median": 1.4921370002412004,
+      "p95": 1.5931911503685114,
+      "max": 4.494148999583558
+    }
+  }
+}

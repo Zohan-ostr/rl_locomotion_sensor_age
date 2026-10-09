@@ -1,0 +1,168 @@
+{
+  "groups": {
+    "ALL": {
+      "B1": {
+        "n": 60,
+        "falls": 20,
+        "mean_alive_s": 15.754133333333334,
+        "velocity_rmse": 0.3317588815647208,
+        "walking_successes": 40
+      },
+      "M": {
+        "n": 60,
+        "falls": 20,
+        "mean_alive_s": 16.040966666666666,
+        "velocity_rmse": 0.3389394644569463,
+        "walking_successes": 40
+      },
+      "M2": {
+        "n": 60,
+        "falls": 20,
+        "mean_alive_s": 15.924066666666667,
+        "velocity_rmse": 0.32107566719201736,
+        "walking_successes": 40
+      }
+    },
+    "J20": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.1473766758867258,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.17058161712688408,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.1441529148816799,
+        "walking_successes": 10
+      }
+    },
+    "J40": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.15215762422833526,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.18245977298196633,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.13655879718508607,
+        "walking_successes": 10
+      }
+    },
+    "J80": {
+      "B1": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 7.7462,
+        "velocity_rmse": 0.7458698800090107,
+        "walking_successes": 0
+      },
+      "M": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 10.056000000000001,
+        "velocity_rmse": 0.6772517820513134,
+        "walking_successes": 0
+      },
+      "M2": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 9.354600000000001,
+        "velocity_rmse": 0.6423986765038244,
+        "walking_successes": 0
+      }
+    },
+    "I20": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.1581729500296598,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.14559135309540758,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.14559135309540758,
+        "walking_successes": 10
+      }
+    },
+    "I40": {
+      "B1": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.17461177672969624,
+        "walking_successes": 10
+      },
+      "M": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.15839963302485335,
+        "walking_successes": 10
+      },
+      "M2": {
+        "n": 10,
+        "falls": 0,
+        "mean_alive_s": 20.0,
+        "velocity_rmse": 0.15839963302485335,
+        "walking_successes": 10
+      }
+    },
+    "I80": {
+      "B1": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 6.7786,
+        "velocity_rmse": 0.6123643825048966,
+        "walking_successes": 0
+      },
+      "M": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 6.1898,
+        "velocity_rmse": 0.6993526284612528,
+        "walking_successes": 0
+      },
+      "M2": {
+        "n": 10,
+        "falls": 10,
+        "mean_alive_s": 6.1898,
+        "velocity_rmse": 0.6993526284612528,
+        "walking_successes": 0
+      }
+    }
+  },
+  "no_retuning": true,
+  "closed_test_seeds_used": false,
+  "hypothesis_supported": null
+}

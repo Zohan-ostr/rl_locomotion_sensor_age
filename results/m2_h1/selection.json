@@ -1,0 +1,34 @@
+{
+  "candidates": {
+    "h40_w3": {
+      "n": 60,
+      "falls": 25,
+      "mean_alive_s": 14.621933333333333,
+      "velocity_rmse": 0.5031546918163339,
+      "walking_successes": 20
+    },
+    "h80_w3": {
+      "n": 60,
+      "falls": 25,
+      "mean_alive_s": 14.071266666666666,
+      "velocity_rmse": 0.5086342578036818,
+      "walking_successes": 20
+    },
+    "h80_w5": {
+      "n": 60,
+      "falls": 29,
+      "mean_alive_s": 12.791599999999999,
+      "velocity_rmse": 0.5488353367650339,
+      "walking_successes": 20
+    },
+    "h120_w5": {
+      "n": 60,
+      "falls": 29,
+      "mean_alive_s": 12.791599999999999,
+      "velocity_rmse": 0.5488353367650339,
+      "walking_successes": 20
+    }
+  },
+  "selected": "h40_w3",
+  "independent_test": false
+}

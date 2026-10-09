@@ -1,0 +1,158 @@
+[
+  {
+    "seed": 20,
+    "condition": "J80",
+    "oracle": [],
+    "fallen": true,
+    "alive_s": 8.040000000000001,
+    "velocity_rmse": 0.9633601454287588
+  },
+  {
+    "seed": 20,
+    "condition": "J80",
+    "oracle": [
+      "q"
+    ],
+    "fallen": false,
+    "alive_s": 20.0,
+    "velocity_rmse": 0.2092027203147203
+  },
+  {
+    "seed": 20,
+    "condition": "J80",
+    "oracle": [
+      "dq"
+    ],
+    "fallen": false,
+    "alive_s": 20.0,
+    "velocity_rmse": 0.25045282963398086
+  },
+  {
+    "seed": 20,
+    "condition": "J80",
+    "oracle": [
+      "q",
+      "dq"
+    ],
+    "fallen": false,
+    "alive_s": 20.0,
+    "velocity_rmse": 0.1470041002077045
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "oracle": [],
+    "fallen": true,
+    "alive_s": 6.328,
+    "velocity_rmse": 0.7106884246142948
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "oracle": [
+      "omega"
+    ],
+    "fallen": false,
+    "alive_s": 20.0,
+    "velocity_rmse": 0.17562587766895524
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "oracle": [
+      "g"
+    ],
+    "fallen": true,
+    "alive_s": 4.67,
+    "velocity_rmse": 1.2778549015826066
+  },
+  {
+    "seed": 20,
+    "condition": "I80",
+    "oracle": [
+      "omega",
+      "g"
+    ],
+    "fallen": false,
+    "alive_s": 20.0,
+    "velocity_rmse": 0.1470041002077045
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "oracle": [],
+    "fallen": true,
+    "alive_s": 9.674,
+    "velocity_rmse": 0.8013716951303729
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "oracle": [
+      "q"
+    ],
+    "fallen": false,
+    "alive_s": 20.0,
+    "velocity_rmse": 0.20850928003047142
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "oracle": [
+      "dq"
+    ],
+    "fallen": false,
+    "alive_s": 20.0,
+    "velocity_rmse": 0.24876995269455715
+  },
+  {
+    "seed": 21,
+    "condition": "J80",
+    "oracle": [
+      "q",
+      "dq"
+    ],
+    "fallen": false,
+    "alive_s": 20.0,
+    "velocity_rmse": 0.14711407546012556
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "oracle": [],
+    "fallen": true,
+    "alive_s": 6.332,
+    "velocity_rmse": 0.777600841529057
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "oracle": [
+      "omega"
+    ],
+    "fallen": false,
+    "alive_s": 20.0,
+    "velocity_rmse": 0.17562823813029255
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "oracle": [
+      "g"
+    ],
+    "fallen": true,
+    "alive_s": 4.5040000000000004,
+    "velocity_rmse": 1.2333486057278786
+  },
+  {
+    "seed": 21,
+    "condition": "I80",
+    "oracle": [
+      "omega",
+      "g"
+    ],
+    "fallen": false,
+    "alive_s": 20.0,
+    "velocity_rmse": 0.14711407546012556
+  }
+]

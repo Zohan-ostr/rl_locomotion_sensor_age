@@ -1,0 +1,12 @@
+{
+  "episodes": 84,
+  "seeds": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "targets_only_from_truth": true
+}

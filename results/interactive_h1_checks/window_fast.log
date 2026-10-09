@@ -1,0 +1,11 @@
+I: блокировка IMU; J: суставов; ЛКМ: вращение камеры; Esc: выход.
+5.00 с: imu BLOCKED
+6.06 с: imu LIVE
+Падение зарегистрировано: 6.644 с; демонстрация продолжается.
+7.00 с: joints BLOCKED
+7.12 с: joints LIVE
+12.26 с: imu BLOCKED
+15.30 с: imu LIVE
+15.94 с: joints BLOCKED
+19.30 с: joints LIVE
+Логи: /home/zohan/projects/rl_locomotion_sensor_age/results/interactive_h1_checks/window_fast

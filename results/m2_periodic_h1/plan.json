@@ -1,0 +1,69 @@
+{
+  "status": "exploratory_development_not_closed_test",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "conditions": [
+    "J20",
+    "J40",
+    "J80",
+    "I20",
+    "I40",
+    "I80"
+  ],
+  "candidates": {
+    "p2_g1.0": {
+      "horizon": 120,
+      "config": {
+        "family": "periodic",
+        "harmonics": 2,
+        "gain": 1.0
+      }
+    },
+    "p3_g1.0": {
+      "horizon": 120,
+      "config": {
+        "family": "periodic",
+        "harmonics": 3,
+        "gain": 1.0
+      }
+    },
+    "p4_g1.0": {
+      "horizon": 120,
+      "config": {
+        "family": "periodic",
+        "harmonics": 4,
+        "gain": 1.0
+      }
+    },
+    "p3_g0.5": {
+      "horizon": 120,
+      "config": {
+        "family": "periodic",
+        "harmonics": 3,
+        "gain": 0.5
+      }
+    }
+  },
+  "ranking": [
+    "falls",
+    "-mean_alive_s",
+    "velocity_rmse"
+  ],
+  "known_old_pilot_results": true,
+  "closed_test_seeds_used": false,
+  "note": "Same pilot seeds used to propose and select candidates; all outcomes retained.",
+  "source_sha256": {
+    "tune_history_compensator.py": "1b75056b5c32a998e6993bf85bf1bad8b1d7aa2e5d06c209fed3d4b6ce6f585e",
+    "history_compensator.py": "2253093a64a13886a3004432ce772ad377004c0fa86cfad87a78fd936e573338"
+  }
+}

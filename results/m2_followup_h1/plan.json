@@ -1,0 +1,60 @@
+{
+  "status": "exploratory_followup_after_negative_candidates",
+  "candidates": {
+    "cycle_g1": {
+      "horizon": 120,
+      "config": {
+        "family": "cycle",
+        "gain": 1.0
+      }
+    },
+    "cycle_g05": {
+      "horizon": 120,
+      "config": {
+        "family": "cycle",
+        "gain": 0.5
+      }
+    },
+    "confidence_j025": {
+      "horizon": 20,
+      "config": {
+        "family": "conservative",
+        "joint_gain": 0.25
+      }
+    },
+    "confidence_j0": {
+      "horizon": 20,
+      "config": {
+        "family": "conservative",
+        "joint_gain": 0.0
+      }
+    }
+  },
+  "conditions": [
+    "J20",
+    "J40",
+    "J80",
+    "I20",
+    "I40",
+    "I80"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "closed_test_seeds_used": false,
+  "ranking": [
+    "falls",
+    "-mean_alive_s",
+    "velocity_rmse"
+  ],
+  "source_sha256": "5842b354ce5d3d2510fedf0fc6af68d50f4a0ae6cc1307a41b8daa7700bad9a7"
+}
